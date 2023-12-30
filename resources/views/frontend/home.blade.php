@@ -602,8 +602,7 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>Latest post from blog</h1>
-					<p class="section-desc-1">Proactively morph optimal infomediaries rather than accurate expertise. Intrinsicly
-                     progressive resources rather than resource-leveling</p>
+					<p class="section-desc-1">Discover opulent escapes and exclusive offerings in our luxury hotel's latest blog post. Elevate your stay with insider tips and captivating tales.</p>
 				</div>
 			</div>
 		</div>
