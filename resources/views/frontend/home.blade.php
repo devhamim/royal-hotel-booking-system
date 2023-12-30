@@ -219,8 +219,7 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>Hotel’S Facilities</h1>
-					<p class="section-desc-1">Proactively morph optimal infomediaries rather than accurate expertise. Intrinsicly
-                     progressive resources rather than resource-leveling</p>
+					<p class="section-desc-1">Hotel's Facilities: Modern fitness center, spa oasis, exquisite dining, versatile event spaces, rooftop lounge, and attentive service for unparalleled comfort and indulgence.</p>
 				</div>
 			</div>
 		</div>
@@ -303,14 +302,12 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Manager</h4>
-					<h1>Luxury Best Hotel In</h1>
-					<h1>Californta, Usa</h1>
-					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after
-                    model. Appropriately create interactive infrastructures after main
-                    Holisticly facilitate stand-alone inframe.</p>
+					<h2>The Best Luxury Hotel in Canada</h2>
+					<p class="section-desc-2">Welcome to Canada's premier luxury haven! Immerse yourself in opulence at our distinguished hotel—where personalized service, lavish accommodations, and unmatched sophistication redefine the essence of world-class hospitality.
+                    </p>
 				</div>
 				<div class="call-do-action-text" data-cue="zoomIn">
-					<a href="#">“ Model. Appropriately create interactive infrastructures after main
+					<a>“ Model. Appropriately create interactive infrastructures after main
                      Holisticly facilitate stand-alone inframe of the world ”</a>
 				</div>
 				<div class="call-do-action-author" data-cue="zoomIn">
