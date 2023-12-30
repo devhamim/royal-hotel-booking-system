@@ -60,10 +60,12 @@
 				</div>
 				<div class="booking-input-box">
 					<h4>Rooms</h4>
-					<select name="rooms" class="rooms">
-                        @foreach ($rooms as $room)
-                            <option value="{{$room->id}}">{{$room->room_number}} Rooms</option>
-                        @endforeach
+					<select name="rooms">
+                        <option value="1">1 Rooms</option>
+                        <option value="2">2 Rooms</option>
+                        <option value="3">3 Rooms</option>
+                        <option value="4">4 Rooms</option>
+                        <option value="5">5 Rooms</option>
                     </select>
 				</div>
 				<div class="booking-input-box upper">
@@ -174,12 +176,8 @@
 			<div class="col-lg-6 col-md-12  upper">
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Luxury Hotel And Resort</h4>
-					<h1>Luxury Best Hotel In City</h1>
-					<h1>Californta, Usa</h1>
-					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after marketing
-						model. Appropriately create interactive infrastructures after maintainable are
-						Holisticly facilitate stand-alone inframe Compellingly create premier open
-						data through economically.</p>
+					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
+					<p class="section-desc-2">Full Moon, the epitome of opulence in Canada, captivates with its lavish decor, panoramic vistas, unrivaled service, and exquisite dining. An oasis of indulgence, it redefines luxury hospitality with sophistication and charm.</p>
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
@@ -190,7 +188,7 @@
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
-						<h4 class="counter">4.9</h4>
+						<h4 class="counter">5</h4>
 						<p>Coustomer Ratings</p>
 					</div>
 				</div>

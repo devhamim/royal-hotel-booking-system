@@ -55,10 +55,12 @@
                     </div>
                     <div class="booking-input-box">
                         <h4>Rooms</h4>
-                        <select name="rooms" class="rooms">
-                            @foreach ($rooms as $room)
-                                <option value="{{$room->id}}">{{$room->room_number}} Rooms</option>
-                            @endforeach
+                        <select name="rooms">
+                            <option value="1">1 Rooms</option>
+                            <option value="2">2 Rooms</option>
+                            <option value="3">3 Rooms</option>
+                            <option value="4">4 Rooms</option>
+                            <option value="5">5 Rooms</option>
                         </select>
                     </div>
                     <div class="booking-input-box upper">
