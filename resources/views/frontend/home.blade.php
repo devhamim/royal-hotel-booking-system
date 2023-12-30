@@ -181,7 +181,7 @@
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
-						<h4 class="counter">250</h4>
+						<h4 class="counter">650</h4>
 						<span>+</span>
 						<p>Luxury Rooms</p>
 					</div>
