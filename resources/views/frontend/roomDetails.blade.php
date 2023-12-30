@@ -85,7 +85,7 @@
 							<h4>{{$rooms->first()->category}}</h4>
 							<h1>{{$rooms->first()->title}}</h1>
 							<p class="room-detils-desc" data-cue="zoomIn">
-                                {{$rooms->first()->description}}
+                                {!! $rooms->first()->description !!}
                             </p>
 						</div>
 					</div>
