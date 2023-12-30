@@ -140,7 +140,7 @@
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="footer-bottom-content">
-					<h4>{{ $setting->first()->footer }} || Design & Development by<a href="https://nugortech.com/" class="text-primary">Nugortechit</a></h4>
+					<h4>{{ $setting->first()->footer }}</h4>
 				</div>
 			</div>
 		</div>
