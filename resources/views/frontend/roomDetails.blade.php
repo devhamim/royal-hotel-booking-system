@@ -100,7 +100,7 @@
 							</div>
 							<div class="booking-item">
 								<ul>
-									<li><strong>Check In -</strong>{{$rooms->first()->interior}}</li>
+									<li><strong>Interior -</strong>{{$rooms->first()->interior}}</li>
 									<li><strong>Adult -</strong>{{$rooms->first()->adult}}</li>
 									<li><strong>Childreen -</strong>{{$rooms->first()->childreen}}</li>
 								</ul>
