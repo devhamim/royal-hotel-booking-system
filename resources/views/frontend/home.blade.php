@@ -188,7 +188,7 @@
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
-						<h4 class="counter">5</h4>
+						<h4 class="counter">4.9</h4>
 						<p>Coustomer Ratings</p>
 					</div>
 				</div>
