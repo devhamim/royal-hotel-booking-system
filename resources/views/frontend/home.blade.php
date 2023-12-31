@@ -462,65 +462,27 @@
 			<div class="col-lg-6">
 	    	    <div class="section-title two" data-cue="zoomIn">
 				    <h4>offers</h4>
-				    <h1>royella’s limited period</h1>
-				    <h1>best offers</h1>
+				    <h2>royella’s limited period best offers</h2>
 			    </div>
 			</div>
 		</div>
 		<div class="row" data-cue="zoomIn">
 			<div class="offers-list owl-carousel">
+                @foreach ($rooms as $room)
 			    <div class="col-md-12">
 				    <div class="single-offers-box">
 					    <div class="offers-thumb">
-						    <img src="{{asset('frontend')}}/assets/images/home-1/offers-1.jpg" alt="">
+						    <img src="{{asset('uploads/rooms')}}/{{$room->image}}" alt="">
 					    </div>
 					    <div class="offers-content">
-					     	<a href="room-details.html">Delux Family Rooms</a>
+					     	<a href="{{route('room.details',$room->slug)}}">{{$room->title}}</a>
 					    </div>
 					    <div class="offers-dollar">
 						   <h4>25% off</h4>
 					    </div>
 				    </div>
 			    </div>
-			    <div class="col-md-12">
-				    <div class="single-offers-box">
-					   <div class="offers-thumb">
-						   <img src="{{asset('frontend')}}/assets/images/home-1/offers-2.jpg" alt="">
-					    </div>
-				    	<div class="offers-content">
-						   <a href="room-details.html">Doubble Suite Room</a>
-					    </div>
-					    <div class="offers-dollar">
-						  <h4>25% off</h4>
-					    </div>
-				    </div>
-			    </div>
-			    <div class="col-md-12">
-				    <div class="single-offers-box">
-					   <div class="offers-thumb">
-						   <img src="{{asset('frontend')}}/assets/images/home-1/offers-3.jpg" alt="">
-					    </div>
-				    	<div class="offers-content">
-						   <a href="room-details-2.html">Suprior Bed Room</a>
-					    </div>
-					    <div class="offers-dollar">
-						  <h4>25% off</h4>
-					    </div>
-				    </div>
-			    </div>
-			    <div class="col-md-12">
-				    <div class="single-offers-box">
-					   <div class="offers-thumb">
-						   <img src="{{asset('frontend')}}/assets/images/home-1/offers-4.jpg" alt="">
-					    </div>
-				    	<div class="offers-content">
-						   <a href="room-details-2.html">Junior Suite Room</a>
-					    </div>
-					    <div class="offers-dollar">
-						  <h4>25% off</h4>
-					    </div>
-				    </div>
-			    </div>
+                @endforeach
 			</div>
 		</div>
 	</div>
