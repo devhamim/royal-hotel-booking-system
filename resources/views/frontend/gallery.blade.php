@@ -34,6 +34,7 @@
 <!--==================================================-->
 <div class="team-area">
 	<div class="container">
+
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="section-title center inner" data-cue="zoomIn">
@@ -44,69 +45,21 @@
 			</div>
 		</div>
 		<div class="row">
+            @foreach ($gallerys as $gallery)
 			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-1.jpg" alt="">
-					</div>
-
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-2.jpg" alt="">
+                <div class="single-team-box" data-cue="zoomIn">
+                    <div class="team-thumb">
+                        <a class="my-image-links" data-gall="gallery01" href="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"><img src="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"></a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-3.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-4.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-5.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-6.jpg" alt="">
-					</div>
-				</div>
-			</div>
-            <div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-6.jpg" alt="">
-					</div>
-				</div>
-			</div>
-            <div class="col-lg-3 col-md-4">
-				<div class="single-team-box" data-cue="zoomIn">
-					<div class="team-thumb">
-						<img src="{{asset('frontend')}}/assets/images/team/team-6.jpg" alt="">
-					</div>
-				</div>
-			</div>
+            @endforeach
 		</div>
 	</div>
 </div>
 <!--==================================================-->
 <!-- End Royella Gallery Area -->
 <!--==================================================-->
-@endsection
 
+@endsection
 

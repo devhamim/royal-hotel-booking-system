@@ -322,7 +322,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="call-do-action-video" data-cues="zoomIn">
-					<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=e6R6VsgD8yQ&amp;t=179s"><i class="bi bi-play"></i></a>
+					<a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=e6R6VsgD8yQ&amp;t=179s"><i class="bi bi-play"></i></a>
 				</div>
 			</div>
 		</div>

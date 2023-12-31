@@ -33,7 +33,8 @@
 	<!-- transitions CSS -->
 	<link rel="stylesheet" href="{{asset('frontend')}}/assets/css/owl.transitions.css" type="text/css" media="all">
 	<!-- venobox CSS -->
-	<link rel="stylesheet" href="{{asset('frontend')}}/venobox/venobox.css" type="text/css" media="all">
+	<link rel="stylesheet" href="{{asset('frontend/assets/css/venobox.min.css')}}" type="text/css" media="all">
+	{{-- <link rel="stylesheet" href="{{asset('frontend')}}/venobox/venobox.css" type="text/css" media="all"> --}}
 	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="{{asset('frontend')}}/assets/css/bootstrap-icons.css" type="text/css" media="all">
 	<!-- Main Style CSS -->
@@ -115,12 +116,13 @@
 	<!-- imagesloaded js -->
 	<script src="{{asset('frontend')}}/assets/js/imagesloaded.pkgd.min.js"></script>
 	<!-- venobox js -->
-	<script src="{{asset('frontend')}}/venobox/venobox.js"></script>
+	{{-- <script src="{{asset('frontend')}}/venobox/venobox.js"></script> --}}
 
 	<!--  animated-text js -->
 	<script src="{{asset('frontend')}}/assets/js/animated-text.js"></script>
 	<!-- venobox min js -->
-	<script src="{{asset('frontend')}}/venobox/venobox.min.js"></script>
+	<script src="{{asset('frontend/assets/js/venobox.min.js')}}"></script>
+	{{-- <script src="{{asset('frontend')}}/venobox/venobox.min.js"></script> --}}
 	<!-- isotope js -->
 	<script src="{{asset('frontend')}}/assets/js/isotope.pkgd.min.js"></script>
 	<!-- jquery meanmenu js -->
@@ -136,5 +138,21 @@
 	<script src="{{asset('frontend')}}/assets/js/jquery.barfiller.js"></script>
 	<!-- barfiller -->
 	<script src="{{asset('frontend')}}/assets/js/scrollCue.min.js"></script>
+
+
+    <script>
+        new VenoBox({
+        selector: '.my-image-links',
+        numeration: true,
+        infinigall: true,
+        share: true,
+        spinner: 'rotating-plane'
+    });
+    </script>
+    <script>
+        new VenoBox({
+            selector: '.my-video-links',
+        });
+    </script>
 </body>
 </html>
