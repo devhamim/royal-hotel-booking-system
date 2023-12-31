@@ -342,7 +342,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Facilities</h4>
-					<h2>The Full Moon Canada for enjoy your luxurious life</h2>
+					<h2>The Full Moon Canada hotel and resort for enjoy your luxurious life</h2>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">

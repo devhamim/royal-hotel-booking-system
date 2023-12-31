@@ -10,7 +10,7 @@
 			<div class="col-md-12">
 				<div class="breacumb-content">
 					<div class="breadcum-title">
-						<h4>Service</h4>
+						<h4>Our Service</h4>
 					</div>
 					<ul>
 						<li><a href="{{url('/')}}">Home</a></li>

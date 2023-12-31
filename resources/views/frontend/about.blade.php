@@ -194,8 +194,8 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Luxury Hotel And Resort</h4>
-					<h1>resote clients feedback</h1>
-					<h1>about services</h1>
+					<h2>Full Moon clients feedback</h2>
+					<h2>about services</h2>
 				</div>
 			</div>
 		</div>
