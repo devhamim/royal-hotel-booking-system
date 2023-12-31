@@ -43,18 +43,19 @@
 				<div class="section-title two">
 					<h4>Luxury Hotel And Resort</h4>
 					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Full Moon, the epitome of opulence in Canada, captivates with its lavish decor, panoramic vistas, unrivaled service, and exquisite dining. An oasis of indulgence, it redefines luxury hospitality with sophistication and charm.</p>
-					<p class="about-inner-desc">Rapidiously myocardinate cross-platform intellectual capital after marketing
-                     model. Appropriately create interactive infrastructures after</p>
+					<p class="section-desc-2">Welcome to our distinguished hotel and resort in Canada, an enclave where luxury meets the splendor of nature. Nestled in the heart of breathtaking landscapes, our establishment is designed to provide a seamless blend of opulence and serenity. Our offerings include lavish accommodations, exceptional dining experiences, and a range of world-class amenities, such as a rejuvenating spa, recreational facilities, and versatile event spaces. With a commitment to impeccable service and attention to detail, our dedicated team ensures that every guest experiences a stay marked by comfort and indulgence. Whether you're seeking a tranquil retreat or a venue for special occasions, our hotel and resort stands as an embodiment of Canadian hospitality, offering an unparalleled escape. Choose us for an immersive experience where the beauty of the surroundings harmonizes with luxurious comforts, promising an extraordinary stay that reflects our commitment to excellence in hospitality. Welcome to a haven where every detail is crafted to elevate your experience, providing a memorable journey in the heart of Canada.</p>
 				</div>
 			</div>
 		</div>
         <div class="row">
             <div class="col-lg-6">
-                <p><strong>Vision:</strong> Our vision is to be the epitome of refined living, offering an unparalleled escape that harmoniously integrates opulence with the pristine beauty of the Canadian landscape. We aspire to be a beacon of luxury that sets new standards in hospitality.</p>
+                <p><strong>Mission:</strong> Our mission is to provide an exceptional and unforgettable experience to our guests. We strive to create a haven where comfort, adventure, and indulgence converge. By delivering unparalleled service and embracing the natural wonders around us, we aim to exceed the expectations of our discerning guests.</p>
             </div>
             <div class="col-lg-6">
-                <p><strong>Mission:</strong> Our mission is to provide an exceptional and unforgettable experience to our guests. We strive to create a haven where comfort, adventure, and indulgence converge. By delivering unparalleled service and embracing the natural wonders around us, we aim to exceed the expectations of our discerning guests.</p>
+                <p><strong>Vision:</strong> Our vision is to be the epitome of refined living, offering an unparalleled escape that harmoniously integrates opulence with the pristine beauty of the Canadian landscape. We aspire to be a beacon of luxury that sets new standards in hospitality.</p>
+            </div>
+            <div class="col-lg-12">
+                <p><strong>Why Choose Us:</strong> Choose us for an unrivaled synthesis of sophistication and natural beauty. We pride ourselves on personalized service, attention to detail, and a commitment to sustainability. Whether you seek a tranquil retreat, a memorable event venue, or an adventure-filled getaway, our hotel and resort is the ultimate choice. We offer more than accommodation; we offer an immersive experience where every moment is tailored to create lasting memories. Discover the allure of our haven, where the extraordinary is the standard.</p>
             </div>
         </div>
 	</div>
@@ -78,19 +79,17 @@
 				<div class="section-title two">
 					<h4>Manager</h4>
 					<h2>The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to Canada's premier luxury haven! Immerse yourself in opulence at our distinguished hotel—where personalized service, lavish accommodations, and unmatched sophistication redefine the essence of world-class hospitality.
-                    </p>
+					<p class="section-desc-2">Welcome to our Canadian luxury hotel and resort! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
 				</div>
 				<div class="call-do-action-text">
-					<a href="#">“ Model. Appropriately create interactive infrastructures after main
-                     Holisticly facilitate stand-alone inframe of the world ”</a>
+					<a href="#">“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
 				</div>
 				<div class="call-do-action-author">
 					<div class="call-do-action-author-thumb">
 						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
 					</div>
 					<div class="call-do-action-content">
-						<h4>John D. Alexon</h4>
+						<h4>Ryan D. Simmons</h4>
 						<p>Manger</p>
 					</div>
 				</div>

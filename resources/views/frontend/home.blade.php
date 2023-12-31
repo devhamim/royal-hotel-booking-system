@@ -303,19 +303,17 @@
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Manager</h4>
 					<h2>The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to Canada's premier luxury haven! Immerse yourself in opulence at our distinguished hotel—where personalized service, lavish accommodations, and unmatched sophistication redefine the essence of world-class hospitality.
-                    </p>
+					<p class="section-desc-2">Welcome to our Canadian luxury hotel and resort! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
 				</div>
 				<div class="call-do-action-text" data-cue="zoomIn">
-					<a>“ Model. Appropriately create interactive infrastructures after main
-                     Holisticly facilitate stand-alone inframe of the world ”</a>
+					<a>“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
 				</div>
 				<div class="call-do-action-author" data-cue="zoomIn">
 					<div class="call-do-action-author-thumb">
 						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
 					</div>
 					<div class="call-do-action-content">
-						<h4>John D. Alexon</h4>
+						<h4>Ryan D. Simmons</h4>
 						<p>Manger</p>
 					</div>
 				</div>
