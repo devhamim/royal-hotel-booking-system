@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $setting->first()->title }}</title>
-    
+
     <link rel="shortcut icon" href="{{ asset('uploads/setting') }}/{{ $setting->first()->favicon }}">
     <link rel="stylesheet" href="{{ asset('backend') }}/assets/vendor/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('backend') }}/assets/vendor/css/OverlayScrollbars.min.css">
@@ -19,6 +19,7 @@
     {{-- summer note --}}
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link rel="stylesheet" id="rtlStyle" href="#">
+    
 </head>
 <body class="body-padding body-p-top light-theme">
 
@@ -42,7 +43,7 @@
 
     @include('sweetalert::alert')
 
-    
+
     <script src="{{ asset('backend') }}/assets/vendor/js/jquery-3.6.0.min.js"></script>
     <script src="{{ asset('backend') }}/assets/vendor/js/jquery.overlayScrollbars.min.js"></script>
     <script src="{{ asset('backend') }}/assets/vendor/js/apexcharts.js"></script>

@@ -105,6 +105,7 @@
 									<li><strong>Interior -</strong>{{$rooms->first()->interior}}</li>
 									<li><strong>Adult -</strong>{{$rooms->first()->adult}}</li>
 									<li><strong>Childreen -</strong>{{$rooms->first()->childreen}}</li>
+									<li><strong>Price - </strong> ${{$rooms->first()->price}}</li>
 								</ul>
 							</div>
 

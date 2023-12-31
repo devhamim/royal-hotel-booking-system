@@ -7,7 +7,6 @@
 	    @if ($setting->first()->title != null)
             <title>{{ $setting->first()->title }}</title>
         @endif
-	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
     @if ($setting->first()->favicon != null)
@@ -46,6 +45,7 @@
 	<link rel="stylesheet" href="{{asset('frontend')}}/assets/css/dark.css" type="text/css" media="all">
 	<!-- modernizr js -->
 	<script src="{{asset('frontend')}}/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -128,6 +128,8 @@
 	<!-- jquery meanmenu js -->
 	<script src="{{asset('frontend')}}/assets/js/jquery.meanmenu.js"></script>
 
+    {{-- summer note --}}
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 	<!-- jquery scrollup js -->
 	<script src="{{asset('frontend')}}/assets/js/jquery.scrollUp.js"></script>
 	<!-- theme js -->
@@ -154,5 +156,11 @@
             selector: '.my-video-links',
         });
     </script>
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+    });
+</script>
 </body>
 </html>
