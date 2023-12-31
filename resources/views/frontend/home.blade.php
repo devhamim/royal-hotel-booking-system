@@ -225,7 +225,7 @@
 		</div>
 		<div class="row"  data-cue="zoomIn">
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-one">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-1.png" alt="">
 					</div>
@@ -235,7 +235,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-two">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-2.png" alt="">
 					</div>
@@ -245,7 +245,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-three">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-3.png" alt="">
 					</div>
@@ -255,7 +255,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-fore">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-4.png" alt="">
 					</div>
@@ -265,7 +265,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-five">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-5.png" alt="">
 					</div>
@@ -275,7 +275,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box">
+				<div class="single-feature-box before-two">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-2.png" alt="">
 					</div>

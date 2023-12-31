@@ -119,7 +119,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-one" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-1.png" alt="">
 					</div>
@@ -129,7 +129,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-two" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-2.png" alt="">
 					</div>
@@ -139,7 +139,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-three" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-3.png" alt="">
 					</div>
@@ -149,7 +149,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-fore" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-4.png" alt="">
 					</div>
@@ -159,7 +159,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-five" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-5.png" alt="">
 					</div>
@@ -169,7 +169,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-6">
-				<div class="single-feature-box" data-cue="zoomIn">
+				<div class="single-feature-box before-two" data-cue="zoomIn">
 					<div class="feature-icon">
 						<img src="{{asset('frontend')}}/assets/images/home-1/feature-2.png" alt="">
 					</div>

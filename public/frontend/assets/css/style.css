@@ -1117,7 +1117,7 @@ p.section-desc-2 {
     margin-bottom: 20px;
 }
 
-.single-feature-box:before {
+.before-one:before {
     position: absolute;
     content: "";
     width: 0;
@@ -1125,6 +1125,58 @@ p.section-desc-2 {
     left: -222px;
     top: 0;
     background: url(../images/home-1/feature-imgs-1.jpg);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+.before-two:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: -222px;
+    top: 0;
+    background: url(../images/home-1/feature-imgs-2.jpg);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+.before-three:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: -222px;
+    top: 0;
+    background: url(../images/home-1/feature-imgs-3.jpg);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+.before-fore:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: -222px;
+    top: 0;
+    background: url(../images/home-1/feature-imgs-4.jpg);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+.before-five:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: -222px;
+    top: 0;
+    background: url(../images/home-1/feature-imgs-5.jpg);
     background-repeat: no-repeat;
     transition: 0.5s;
     background-size: cover;
