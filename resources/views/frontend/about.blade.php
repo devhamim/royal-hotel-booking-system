@@ -72,7 +72,7 @@
 		<div class="row align-items-center call-do-action-bg">
 			<div class="col-lg-6 col-md-12">
 				<div class="call-do-action-video" data-cue="zoomIn">
-					<a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=e6R6VsgD8yQ&amp;t=179s"><i class="bi bi-play"></i></a>
+					<a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=aD2anRT9TDk"><i class="bi bi-play"></i></a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 matha-ta-ghurlo" data-cue="zoomIn">
