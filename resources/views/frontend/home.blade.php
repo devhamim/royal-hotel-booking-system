@@ -177,7 +177,7 @@
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Luxury Hotel And Resort</h4>
 					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Full Moon, the epitome of opulence in Canada, captivates with its lavish decor, panoramic vistas, unrivaled service, and exquisite dining. An oasis of indulgence, it redefines luxury hospitality with sophistication and charm.</p>
+					<p class="section-desc-2">Welcome to our premier resort Full Moon in Canada, where breathtaking landscapes meet unrivaled luxury. As a distinguished hospitality haven, we offer an immersive escape into natural beauty coupled with exquisite amenities. Our commitment to exceptional service ensures an unparalleled retreat, inviting you to experience the epitome of tranquility and indulgence.</p>
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
@@ -468,7 +468,7 @@
 		</div>
 		<div class="row" data-cue="zoomIn">
 			<div class="offers-list owl-carousel">
-                @foreach ($rooms as $room)
+                @foreach ($rooms->take(8) as $room)
 			    <div class="col-md-12">
 				    <div class="single-offers-box">
 					    <div class="offers-thumb">

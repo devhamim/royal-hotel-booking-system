@@ -47,12 +47,16 @@
 					<p class="about-inner-desc">Rapidiously myocardinate cross-platform intellectual capital after marketing
                      model. Appropriately create interactive infrastructures after</p>
 				</div>
-
-				<div class="luxury-button">
-					<a href="{{route('about_us')}}">About More</a>
-				</div>
 			</div>
 		</div>
+        <div class="row">
+            <div class="col-lg-6">
+                <p><strong>Vision:</strong> Our vision is to be the epitome of refined living, offering an unparalleled escape that harmoniously integrates opulence with the pristine beauty of the Canadian landscape. We aspire to be a beacon of luxury that sets new standards in hospitality.</p>
+            </div>
+            <div class="col-lg-6">
+                <p><strong>Mission:</strong> Our mission is to provide an exceptional and unforgettable experience to our guests. We strive to create a haven where comfort, adventure, and indulgence converge. By delivering unparalleled service and embracing the natural wonders around us, we aim to exceed the expectations of our discerning guests.</p>
+            </div>
+        </div>
 	</div>
 </div>
 <!--==================================================-->
@@ -109,9 +113,8 @@
 					<div class="section-thumb">
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
-					<h1>Hotel’S Facilities</h1>
-					<p class="section-desc-1">Proactively morph optimal infomediaries rather than accurate expertise. Intrinsicly
-                     progressive resources rather than resource-leveling</p>
+					<h1>Full Moon Canada Facilities</h1>
+					<p class="section-desc-1">Immerse yourself in the lap of luxury with our state-of-the-art facilities. From lavishly appointed rooms and suites that offer breathtaking views to world-class dining that tantalizes the taste buds, every detail is crafted to enhance your stay. Our resort features a rejuvenating spa, recreational amenities, and event spaces that cater to both leisure and business travelers.</p>
 				</div>
 			</div>
 		</div>
