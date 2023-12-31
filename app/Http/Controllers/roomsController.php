@@ -120,6 +120,8 @@ class roomsController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        rome::find($id)->delete();
+        toast('Room Delete','error');
+        return back();
     }
 }

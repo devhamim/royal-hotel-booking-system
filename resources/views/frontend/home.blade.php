@@ -102,7 +102,7 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>FULL MOON’S ROOMS & SUITES</h1>
-					<p class="section-desc-1">Full Moon's Room and Suites: Elegant retreat with luxurious amenities, captivating design, breathtaking views, ensuring an enchanting and memorable stay.</p>
+					<p class="section-desc-1">Full Moon's Room and Suites Elegant retreat with luxurious amenities, captivating design, breathtaking views, ensuring an enchanting and memorable stay.</p>
 				</div>
 			</div>
 		</div>
