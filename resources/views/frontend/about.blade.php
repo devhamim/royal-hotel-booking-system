@@ -42,18 +42,12 @@
 			<div class="col-lg-6  upper">
 				<div class="section-title two">
 					<h4>Luxury Hotel And Resort</h4>
-					<h1>Luxury Best Hotel In City</h1>
-					<h1>Californta, Usa</h1>
-					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after marketing
-						model. Appropriately create interactive infrastructures after maintainable are
-						Holisticly facilitate stand-alone inframe
-					</p>
+					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
+					<p class="section-desc-2">Full Moon, the epitome of opulence in Canada, captivates with its lavish decor, panoramic vistas, unrivaled service, and exquisite dining. An oasis of indulgence, it redefines luxury hospitality with sophistication and charm.</p>
 					<p class="about-inner-desc">Rapidiously myocardinate cross-platform intellectual capital after marketing
                      model. Appropriately create interactive infrastructures after</p>
 				</div>
-				<div class="about-address">
-					<p>102/B, Dream Street, New Elephant Road, Resote Dhanmondi, Dhaka - 1212</p>
-				</div>
+
 				<div class="luxury-button">
 					<a href="{{route('about_us')}}">About More</a>
 				</div>
@@ -79,11 +73,9 @@
 			<div class="col-lg-6 col-md-12 matha-ta-ghurlo" data-cue="zoomIn">
 				<div class="section-title two">
 					<h4>Manager</h4>
-					<h1>Luxury Best Hotel In</h1>
-					<h1>Californta, Usa</h1>
-					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after
-                    model. Appropriately create interactive infrastructures after main
-                    Holisticly facilitate stand-alone inframe.</p>
+					<h2>The Best Luxury Hotel in Canada</h2>
+					<p class="section-desc-2">Welcome to Canada's premier luxury haven! Immerse yourself in opulence at our distinguished hotel—where personalized service, lavish accommodations, and unmatched sophistication redefine the essence of world-class hospitality.
+                    </p>
 				</div>
 				<div class="call-do-action-text">
 					<a href="#">“ Model. Appropriately create interactive infrastructures after main
