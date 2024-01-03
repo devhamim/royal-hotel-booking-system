@@ -8,6 +8,16 @@ use Str;
 
 class PricingController extends Controller
 {
+
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -40,7 +50,7 @@ class PricingController extends Controller
             'description'       =>'required',
         ];
 
-        $validatesData = $request->validate($rules); 
+        $validatesData = $request->validate($rules);
         // icon
         if($request->hasFile('icon')){
             $image = $request->file('icon');
@@ -96,11 +106,11 @@ class PricingController extends Controller
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/pricing'), $file_name);
-            $validatesData['icon'] = $file_name; 
+            $validatesData['icon'] = $file_name;
         }
-        
+
         pricing::where('id', $id)->update($validatesData);
-        toast('Update Success','success');   
+        toast('Update Success','success');
         return redirect()->route('pricing.index');
     }
 

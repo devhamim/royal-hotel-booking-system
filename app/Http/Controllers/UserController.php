@@ -8,6 +8,16 @@ use Str;
 
 class UserController extends Controller
 {
+
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -41,18 +51,18 @@ class UserController extends Controller
         ];
 
         $validatesData = $request->validate($rules);
-        $validatesData['password'] = bcrypt($request->password); 
+        $validatesData['password'] = bcrypt($request->password);
 
         if($request->hasFile('image')){
             $image = $request->file('image');
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/users'), $file_name);
-            $validatesData['image'] = $file_name; 
+            $validatesData['image'] = $file_name;
         }
 
         User::create($validatesData);
-        toast('Add Success','success');   
+        toast('Add Success','success');
         return back();
     }
 

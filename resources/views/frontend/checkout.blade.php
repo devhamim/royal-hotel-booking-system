@@ -9,12 +9,12 @@
 			<div class="col-md-12">
 				<div class="breacumb-content">
 					<div class="breadcum-title">
-						<h4>Checkout</h4>
+						<h4>Checking</h4>
 					</div>
 					<ul>
 						<li><a href="{{url('/')}}">Home</a></li>
 						<li>/</li>
-						<li>Checkout</li>
+						<li>Checking</li>
 					</ul>
 				</div>
 			</div>
@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="text-center d-block mb-5">
-                    <h2>Checkout</h2>
+                    <h2>Checking</h2>
                 </div>
             </div>
         </div>

@@ -7,6 +7,16 @@ use Illuminate\Http\Request;
 
 class PrivacyPolicyController extends Controller
 {
+
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -36,7 +46,7 @@ class PrivacyPolicyController extends Controller
         ];
 
         $validatesData = $request->validate($rules);
-        
+
         privacyPolicy::create($validatesData);
         toast('Add Success','success');
         return back();
@@ -71,9 +81,9 @@ class PrivacyPolicyController extends Controller
         ];
 
         $validatesData = $request->validate($rules);
-        
+
         privacyPolicy::where('id', $id)->update($validatesData);
-        toast('Update Success','success');   
+        toast('Update Success','success');
         return redirect()->route('privacyPolicy.index');
     }
 

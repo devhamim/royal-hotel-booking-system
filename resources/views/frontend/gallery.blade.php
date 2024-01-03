@@ -47,7 +47,7 @@
 		<div class="row">
             @foreach ($gallerys as $gallery)
 			<div class="col-lg-3 col-md-4">
-                <div class="single-team-box" data-cue="zoomIn">
+                <div class="single-team-box " data-cue="zoomIn">
                     <div class="team-thumb">
                         <a class="my-image-links" data-gall="gallery01" href="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"><img src="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"></a>
 					</div>
@@ -55,6 +55,9 @@
 			</div>
             @endforeach
 		</div>
+        <div class="my">
+            {!! $gallerys->links() !!}
+        </div>
 	</div>
 </div>
 <!--==================================================-->

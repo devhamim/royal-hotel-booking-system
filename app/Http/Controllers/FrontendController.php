@@ -119,7 +119,7 @@ class FrontendController extends Controller
     }
     //gallerys
     function gallerys(){
-        $gallerys = gallery::where('status', 1)->get();
+        $gallerys = gallery::where('status', 1)->paginate(20);
         return view('frontend.gallery', [
             'gallerys'=>$gallerys,
         ]);

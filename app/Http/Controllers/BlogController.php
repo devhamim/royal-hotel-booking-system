@@ -4,13 +4,22 @@ namespace App\Http\Controllers;
 
 use App\Models\blog;
 use App\Models\blogComment;
-use App\Models\feature;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Str;
 
 class BlogController extends Controller
 {
+
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -43,7 +52,7 @@ class BlogController extends Controller
             'define'       =>'required',
         ];
 
-        $validatesData = $request->validate($rules); 
+        $validatesData = $request->validate($rules);
         if($request->hasFile('image')){
             $image = $request->file('image');
             $extension = $image->getClientOriginalExtension();
@@ -51,9 +60,9 @@ class BlogController extends Controller
             $image->move(public_path('uploads/blog'), $file_name);
             $validatesData['image'] = $file_name;
         }
-        
-        $validatesData['added_by'] = Auth::id(); 
-        $validatesData['slug'] = Str::lower(str_replace(' ', '-', $request->title)). '-'. rand(0, 999999); 
+
+        $validatesData['added_by'] = Auth::id();
+        $validatesData['slug'] = Str::lower(str_replace(' ', '-', $request->title)). '-'. rand(0, 999999);
 
         blog::create($validatesData);
         toast('Add Success','success');
@@ -102,7 +111,7 @@ class BlogController extends Controller
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/blog'), $file_name);
-            $validatesData['image'] = $file_name; 
+            $validatesData['image'] = $file_name;
         }
         // if (!isset($validatesData['tags'])) {
         //     $validatesData['tags'] = [];
@@ -111,7 +120,7 @@ class BlogController extends Controller
         // $validatesData['tags'] = $tagsAsString;
 
         blog::where('id', $id)->update($validatesData);
-        toast('Update Success','success');   
+        toast('Update Success','success');
         return redirect()->route('blog.index');
     }
 

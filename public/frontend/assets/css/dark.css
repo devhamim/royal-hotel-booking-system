@@ -45,7 +45,7 @@
 
 .dark .room-content a:hover{
 	color:#c19d68;
-} 
+}
 
 .dark .room-content p {
     color: #acacac;
@@ -78,6 +78,11 @@
 
 .dark .row.call-do-action-bg {
     background: url(../images/home-1/dark-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 73px 58px 66px;
+    margin-top: -90px;
 }
 
 .dark .call-do-action-text a {

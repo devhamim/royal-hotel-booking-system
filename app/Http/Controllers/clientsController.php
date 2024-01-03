@@ -8,6 +8,16 @@ use Str;
 
 class clientsController extends Controller
 {
+
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -44,11 +54,11 @@ class clientsController extends Controller
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/client'), $file_name);
-            $validatesData['image'] = $file_name; 
+            $validatesData['image'] = $file_name;
         }
 
         client::create($validatesData);
-        toast('Add Success','success');   
+        toast('Add Success','success');
         return back();
     }
 
@@ -89,11 +99,11 @@ class clientsController extends Controller
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/client'), $file_name);
-            $validatesData['image'] = $file_name; 
+            $validatesData['image'] = $file_name;
         }
 
         client::where('id', $id)->update($validatesData);
-        toast('Update Success','success');   
+        toast('Update Success','success');
         return redirect()->route('client.index');
     }
 

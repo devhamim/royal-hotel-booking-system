@@ -6,6 +6,7 @@ use App\Models\setting;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
 use View;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+        // pagination
+            Paginator::useBootstrap();
+        // pagination
+
         // setting
         View::composer('frontend.layout.footer', function ($view){
             $view->with('setting', setting::all());

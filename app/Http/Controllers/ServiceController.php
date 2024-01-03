@@ -9,6 +9,15 @@ use Str;
 
 class ServiceController extends Controller
 {
+       /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      */
@@ -42,7 +51,7 @@ class ServiceController extends Controller
             'sort_desp'         =>'',
         ];
 
-        $validatesData = $request->validate($rules); 
+        $validatesData = $request->validate($rules);
         // icon
         if($request->hasFile('icon')){
             $image = $request->file('icon');
@@ -107,20 +116,20 @@ class ServiceController extends Controller
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/service'), $file_name);
-            $validatesData['icon'] = $file_name; 
+            $validatesData['icon'] = $file_name;
         }
-        
+
         // image
         if($request->hasFile('image')){
             $image = $request->file('image');
             $extension = $image->getClientOriginalExtension();
             $file_name = Str::random(5). rand(1000, 999999). '.'.$extension;
             $image->move(public_path('uploads/service'), $file_name);
-            $validatesData['image'] = $file_name; 
+            $validatesData['image'] = $file_name;
         }
-        
+
         service::where('id', $id)->update($validatesData);
-        toast('Update Success','success');   
+        toast('Update Success','success');
         return redirect()->route('service.index');
     }
 

@@ -7453,7 +7453,7 @@ a.dark-logo {
 .single-team-box {
     text-align: center;
     border: 1px solid rgba(30,30,30,0.1);
-    padding: 28px;
+    padding: 5px;
     position: relative;
     z-index: 1;
     overflow: hidden;
