@@ -53,10 +53,20 @@
 				<div class="booking-input-box">
 					<h4>Check In</h4>
 					<input type="date" class="check_in" name="check_in" required>
+                    <div>
+                        @error('check_in')
+                        <strong class="text-danger">{{$message}}</strong>
+                    @enderror
+                    </div>
 				</div>
 				<div class="booking-input-box">
 					<h4>Check Out</h4>
 					<input type="date" class="check_out" name="check_out" required>
+                    <div>
+                        @error('check_out')
+                            <strong class="text-danger">{{$message}}</strong>
+                        @enderror
+                    </div>
 				</div>
 				<div class="booking-input-box">
 					<h4>Rooms</h4>

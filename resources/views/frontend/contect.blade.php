@@ -37,10 +37,7 @@
 				<div class="section-title two">
 					<h4>Contact us</h4>
 					<h1>Contact With Us</h1>
-					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after the
-                       model. Appropriately create interactive infrastructures after maintance
-                       Holisticly facilitate stand-alone
-
+					<p class="section-desc-2">We value your inquiries and feedback. Our dedicated team is ready to assist you.
 					</p>
 				</div>
 				<div class="single-contact-box">
@@ -78,27 +75,26 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
+				<form action="{{ route('customerMessage.store') }}" method="POST" id="dreamit-form">
+                    @csrf
 					<div class="single-contact-form">
 						<div class="contact-content">
 							<h4>Get In Touch</h4>
 						</div>
 						<div class="single-input-box">
-							<input type="text" name="Name" placeholder="Your Name" required="">
+							<input type="text" name="name" placeholder="Your Name" required="">
 						</div>
 						<div class="single-input-box">
-							<input type="text" name="Email" placeholder="Enter Your Email" required="">
+							<input type="number" name="phone" placeholder="Enter Your Phone" required="">
 						</div>
 						<div class="single-input-box">
-					        <select name="Subject" id="Subject">
-					        	<option value="saab">select Subject</option>
-					        	<option value="opel">Luxury Hotel</option>
-					        	<option value="audi">Room</option>
-					        	<option value="audi">Hottel</option>
-					        </select>
+                            <input type="email" name="email" placeholder="Enter Your Email" required="">
+						</div>
+                        <div class="single-input-box">
+                            <input type="text" name="subject" placeholder="Enter Your Subject" required="">
 						</div>
 						<div class="single-input-box">
-							<textarea name="Message" id="Message" placeholder="Write Message"></textarea>
+							<textarea name="message" id="Message" placeholder="Write Message"></textarea>
 						</div>
 						<div class="single-input-box">
 							<button type="submit">Sent Message</button>

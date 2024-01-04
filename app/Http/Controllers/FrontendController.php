@@ -368,6 +368,15 @@ class FrontendController extends Controller
 
     function searchrooms(Request $request){
 
+        $request->validate([
+            'check_in' => 'required|date|after_or_equal:today',
+            'check_out' => 'required|date|after:check_in',
+            'rooms' => 'required|integer|min:1',
+            'guests' => 'required|integer|min:1',
+        ], [
+            'check_in.after_or_equal' => 'Check-in date must be today or a future date.',
+        ]);
+
         $checkIn = $request->input('check_in');
         $checkOut = $request->input('check_out');
         $rooms = $request->input('rooms');
