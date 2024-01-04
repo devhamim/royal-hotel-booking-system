@@ -43,6 +43,7 @@ class FrontendController extends Controller
         $blogs = blog::where('status', 1)->where('define', 2)->get();
         $settings = setting::all();
         $rooms = rome::where('status', 1)->get();
+        $rooms_gest = rome::where('status', 1)->orderBy('id', 'DESC')->get();
         return view('frontend.home',[
             'abouts'=>$abouts,
             'banners'=>$banners,
@@ -57,6 +58,7 @@ class FrontendController extends Controller
             'products'=>$products,
             'videos'=>$videos,
             'rooms'=>$rooms,
+            'rooms_gest'=>$rooms_gest,
         ]);
     }
 
@@ -249,8 +251,10 @@ class FrontendController extends Controller
 
     function room_finds(){
         $rooms = rome::where('status', 1)->get();
+        $rooms_gest = rome::where('status', 1)->orderBy('id', 'DESC')->get();
         return view('frontend.roomfind', [
             'rooms'=>$rooms,
+            'rooms_gest'=>$rooms_gest,
         ]);
     }
 

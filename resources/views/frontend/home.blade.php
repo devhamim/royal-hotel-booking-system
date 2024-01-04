@@ -71,8 +71,8 @@
 				<div class="booking-input-box upper">
 					<h4>Guests</h4>
 					<select name="guests" class="guests">
-                        @foreach ($rooms->take(4) as $room)
-                            <option value="{{$room->id}}">{{$room->adult}} Adult, {{$room->childreen}}  Child</option>
+                        @foreach ($rooms_gest->take(4) as $gest)
+                            <option value="{{$gest->id}}">{{$gest->adult}} Adult, {{$gest->childreen}}  Child</option>
                         @endforeach
                     </select>
 				</div>
