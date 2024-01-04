@@ -193,9 +193,8 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title two" data-cue="zoomIn">
-					<h4>Luxury Hotel And Resort</h4>
-					<h2>Full Moon clients feedback</h2>
-					<h2>about services</h2>
+					<h2 class="text-white">GUEST TESTIMONIALS</h2>
+					<p>Customers speak volumes about their unforgettable experiences at Full Moon. Exceptional service, luxurious amenities, and personalized attention make us their top choice for creating lasting memories.</p>
 				</div>
 			</div>
 		</div>
@@ -254,8 +253,9 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>Latest post from blog</h1>
-					<p class="section-desc-1">Proactively morph optimal infomediaries rather than accurate expertise. Intrinsicly
-                     progressive resources rather than resource-leveling</p>
+					<p class="section-desc-1">Discover opulent escapes and exclusive offerings in our luxury hotel's latest blog post. Elevate your stay with insider tips and captivating tales.
+
+                    </p>
 				</div>
 			</div>
 		</div>
@@ -269,9 +269,6 @@
                             </a>
                         </div>
                         <div class="blog-content">
-                        <div class="meta-blog">
-                            <span>{{$blog->created_at->format('d,M,Y')}}</span>
-                        </div>
                             <a href="{{route('our.blog.details',$blog->slug)}}">{{$blog->title}}</a>
                         </div>
                         <div class="blog-button">
