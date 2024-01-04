@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="text-center d-block mb-5">
-                    <h2>Checking</h2>
+                    <h2>Guest Information</h2>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
             <div class="col-12 col-lg-7 col-md-12 m-auto">
                 <form method="POST" action="{{route('checkout.booking')}}">
                     @csrf
-                    <h5 class="mb-4 ft-medium">Billing Details</h5>
+                    <h5 class="mb-4 ft-medium">Guest Information</h5>
 
                     <input type="hidden" name="gest_id" value="{{$gestroomdatas->id}}">
                     <input type="hidden" name="room_id" value="{{$gestroomdatas->room_id}}">

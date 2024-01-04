@@ -34,7 +34,7 @@
 <div class="room-details">
 	<div class="container">
 		<div class="row">
-            <div class="col-lg-12 my-5">
+            {{-- <div class="col-lg-12 my-5">
                 <form action="{{route('gest.room.book')}}" method="POST" id="dreamit-form">
                 @csrf
                 <input type="hidden" name="room_id" value="{{$rooms->first()->id}}">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            </div> --}}
 			<div class="col-lg-8">
 				<div class="row">
 					<div class="room-details-list owl-carousel">
@@ -108,7 +108,43 @@
 									<li><strong>Price - </strong> ${{$rooms->first()->price}}</li>
 								</ul>
 							</div>
-
+                            <div class="my-3 p-3 bg-black">
+                                <form action="{{route('gest.room.book')}}" method="POST" id="dreamit-form">
+                                    @csrf
+                                    <input type="hidden" name="room_id" value="{{$rooms->first()->id}}">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <h4 class="text-white">Check In</h4>
+                                                <input type="date" class="form-control" name="checkin" required>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h4 class="text-white">Check Out</h4>
+                                                <input type="date" class="form-control"  name="checkout" required>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h4 class="text-white">Rooms</h4>
+                                                <select name="rooms" class="form-control" >
+                                                    <option value="1">1 Rooms</option>
+                                                    <option value="2">2 Rooms</option>
+                                                    <option value="3">3 Rooms</option>
+                                                    <option value="4">4 Rooms</option>
+                                                    <option value="5">5 Rooms</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h4 class="text-white">Guests</h4>
+                                                <select name="gest" class="form-control" >
+                                                    @foreach ($rooms as $room)
+                                                        <option value="{{$room->id}}">{{$room->adult}} Adult, {{$room->childreen}}  Child</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-12 mt-5">
+                                                <button type="submit" class="btn btn w-100 text-white" style="background: #c19d68; font-size: 20px; font-weight: 700">Book Now</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                            </div>
                             {{-- <a href="{{route('room.gest.book',$rooms->first()->slug)}}" class="btn btn-primary" style="background: #c19d68">Book Now</a> --}}
 
 						</div>

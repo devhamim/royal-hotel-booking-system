@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="text-center d-block mb-5">
-                    <h2>Checking</h2>
+                    <h2>Payment Gateway</h2>
                 </div>
             </div>
         </div>
@@ -48,7 +48,6 @@
                     <nav>
                         <div class="nav nav-tabs d-flex" id="nav-tab" role="tablist">
                           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">PayPal</button>
-                          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Stripe</button>
                           <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Debit Or Credit</button>
                         </div>
                       </nav>
@@ -59,77 +58,12 @@
                                 <input type="text" class="form-control simple" name="paypal_mail" placeholder="paypal@gmail.com">
                             </div>
                             <div class="form-group">
-                                <label class="text-dark">Transaction Id</label>
-                                <input type="text" class="form-control simple" name="transaction_id" placeholder="Transaction Id">
+                                <label class="text-dark">Password</label>
+                                <input type="password" class="form-control simple" name="transaction_id" placeholder="Password">
                             </div>
                             <div class="form-group mb-5">
                                 <input type="hidden" name="paypal" value="Paypal">
                                 <button type="submit" name="btn" value="1" class="btn btn-dark btm-md full-width">Pay {{$checkouts->first()->rel_to_room->price}} USD</button>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <label class="text-dark">Card Holder Name *</label>
-                                        <input type="text" class="form-control" name="st_card_holder" placeholder="Card Holder Name" />
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <div class="form-group">
-                                        <label class="text-dark">Card Number *</label>
-                                        <input type="text" class="form-control" name="st_card_number" placeholder="5426 4586 5485 4759" />
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-5 col-md-5 col-sm-6">
-                                    <div class="form-group">
-                                        <label class="text-dark">Expire Month *</label>
-                                        <select class="form-select" name="st_expire_month">
-                                          <option value="january" selected="">January</option>
-                                          <option value="february">February</option>
-                                          <option value="march">March</option>
-                                          <option value="april">April</option>
-                                          <option value="may">May</option>
-                                          <option value="june">June</option>
-                                          <option value="july">July</option>
-                                          <option value="august">August</option>
-                                          <option value="September">September</option>
-                                          <option value="october">October</option>
-                                          <option value="november">November</option>
-                                          <option value="december">December</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-5 col-md-5 col-sm-6">
-                                    <div class="form-group">
-                                        <label class="text-dark">Expire Year *</label>
-                                        <select class="form-select" name="st_expire_year">
-                                          <option value="2022" selected="">2022</option>
-                                          <option value="2023">2023</option>
-                                          <option value="2024">2024</option>
-                                          <option value="2025">2025</option>
-                                          <option value="2026">2026</option>
-                                          <option value="2027">2027</option>
-                                          <option value="2028">2028</option>
-                                          <option value="2029">2029</option>
-                                          <option value="2030">2030</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="form-group">
-                                        <label class="text-dark">CVC *</label>
-                                        <input type="text" class="form-control" name="st_cvc" placeholder="CVV*">
-                                    </div>
-                                </div>
-                                <div class="form-group mb-5">
-                                    <input type="hidden" name="stripe" value="Stripe">
-                                    <button type="submit" name="btn" value="2" class="btn btn-dark btm-md full-width">Pay {{$checkouts->first()->rel_to_room->price}} USD</button>
-                                </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
@@ -188,7 +122,7 @@
                                 <div class="col-lg-2 col-md-2 col-sm-12">
                                     <div class="form-group">
                                         <label class="text-dark">CVC *</label>
-                                        <input type="text" class="form-control" name="cvc" placeholder="CVV*" />
+                                        <input type="text" class="form-control" name="cvc" placeholder="CVC*" />
                                     </div>
                                 </div>
                                 <div class="form-group mb-5">

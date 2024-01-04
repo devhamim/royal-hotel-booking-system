@@ -343,7 +343,7 @@ class FrontendController extends Controller
         // Debit card rules
         $rules = [
             'card_holder' => 'required',
-            'card_number' => 'required',
+            'card_number' => 'required|min:16|max:16',
             'expire_month' => 'required',
             'expire_year' => 'required',
             'cvc' => 'required',
