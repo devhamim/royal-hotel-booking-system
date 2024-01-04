@@ -47,11 +47,11 @@
                 <div class="row add-bg align-items-center">
                     <div class="booking-input-box">
                         <h4>Check In</h4>
-                        <input type="date" class="check_in" name="check_in" required>
+                        <input type="date" class="check_in" name="check_in" value="{{$checkIn}}" required>
                     </div>
                     <div class="booking-input-box">
                         <h4>Check Out</h4>
-                        <input type="date" class="check_out" name="check_out" required>
+                        <input type="date" class="check_out" name="check_out" value="{{$checkOut}}" required>
                     </div>
                     <div class="booking-input-box">
                         <h4>Rooms</h4>
@@ -83,11 +83,11 @@
 		    <div class="col-lg-4 col-md-6">
 				<div class="room-single-box" data-cue="zoomIn">
 					<div class="room-thumb">
-                        <a href="{{route('room.details',$room->slug)}}">
+                        <a href="{{route('room.details',[$room->slug,'check_in' => $checkIn, 'check_out' => $checkOut])}}">
                             <img src="{{asset('uploads/rooms')}}/{{$room->image}}" alt="">
                         </a>
 						<div class="room-details-button">
-							<a href="{{route('room.details',$room->slug)}}">View Details<i class="bi bi-arrow-right"></i></a>
+							<a href="{{route('room.details',[$room->slug,'check_in' => $checkIn, 'check_out' => $checkOut])}}">View Details<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 					<div class="room-pricing">
@@ -95,7 +95,7 @@
 					</div>
                     <div class="room-content">
                     	<h4>{{$room->category}}</h4>
-                    	<a href="{{route('room.details',$room->slug)}}">{{$room->title}}</a>
+                    	<a href="{{route('room.details',[$room->slug,'check_in' => $checkIn, 'check_out' => $checkOut])}}">{{$room->title}}</a>
                     	<p>{{$room->subtitle}}</p>
                     </div>
                     <div class="room-bottom">

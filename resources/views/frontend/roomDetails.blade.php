@@ -115,11 +115,11 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <h4 class="text-white">Check In</h4>
-                                                <input type="date" class="form-control" name="checkin" required>
+                                                <input type="date" class="form-control" name="checkin" value="{{$checkIn}}" required>
                                             </div>
                                             <div class="col-lg-6">
                                                 <h4 class="text-white">Check Out</h4>
-                                                <input type="date" class="form-control"  name="checkout" required>
+                                                <input type="date" class="form-control"  name="checkout" value="{{$checkOut}}" required>
                                             </div>
                                             <div class="col-lg-6">
                                                 <h4 class="text-white">Rooms</h4>

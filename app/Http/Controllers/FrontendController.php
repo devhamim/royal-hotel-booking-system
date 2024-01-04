@@ -258,10 +258,14 @@ class FrontendController extends Controller
         ]);
     }
 
-    function room_details($slug){
+    function room_details($slug, Request $request){
         $rooms = rome::where('slug',$slug)->where('status', 1)->get();
+        $checkIn = $request->input('check_in');
+        $checkOut = $request->input('check_out');
         return view('frontend.roomDetails', [
             'rooms'=>$rooms,
+            'checkIn'=>$checkIn,
+            'checkOut'=>$checkOut,
         ]);
     }
 
@@ -389,6 +393,8 @@ class FrontendController extends Controller
 
         return view('frontend.roomfind', [
             'rooms_gest' => $rooms_gest,
+            'checkIn' => $checkIn,
+            'checkOut' => $checkOut,
         ]);
 
     }
