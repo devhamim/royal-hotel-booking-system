@@ -350,7 +350,7 @@ class FrontendController extends Controller
             'card_number' => 'required|min:16|max:16',
             'expire_month' => 'required',
             'expire_year' => 'required',
-            'cvc' => 'required',
+            'cvc' => 'required|min:3|max:3',
             'debit' => 'required',
         ];
     }

@@ -133,7 +133,7 @@
                     </div>
                       <div class="form-group mb-5">
                         <input type="hidden" name="debit" value="Debit">
-                        <button type="submit" class="btn btn-dark btm-md full-width">Checking</button>
+                        <button type="submit" class="btn btn-dark py-2 px-5 mt-3 full-width">BOOK NOW</button>
                     </div>
                 </form>
             </div>
