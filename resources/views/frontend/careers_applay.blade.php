@@ -62,7 +62,7 @@
                                     </div>
                                     <div class="my-3 col-lg-6">
                                         <label for="" class="form-label">Email Address <span class="text-danger">*</span></label>
-                                        <input type="text" name="email" class="form-control" placeholder="Email" required>
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
                                     </div>
 
 

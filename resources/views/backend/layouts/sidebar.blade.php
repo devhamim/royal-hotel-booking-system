@@ -21,16 +21,16 @@
                         <a href="{{ route('about.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-eject"></i></span> <span class="sidebar-txt">About</span></a>
                     </li> --}}
                     <li class="sidebar-dropdown-item">
-                        <a href="{{ route('gestchecking.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-cart-plus"></i></span> <span class="sidebar-txt">Gest Checking</span></a>
+                        <a href="{{ route('gestchecking.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-person-walking-luggage"></i></span> <span class="sidebar-txt">Guest Checking</span></a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                        <a href="{{ route('careerlist.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-cart-plus"></i></span> <span class="sidebar-txt">Career List</span></a>
+                        <a href="{{ route('careerlist.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-user-pen"></i></span> <span class="sidebar-txt">Career List</span></a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                        <a href="{{ route('careerapplay.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-cart-plus"></i></span> <span class="sidebar-txt">Career Applay List</span></a>
+                        <a href="{{ route('careerapplay.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-list-check"></i></span> <span class="sidebar-txt">Career Applay List</span></a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                        <a href="{{ route('rooms.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-cart-plus"></i></span> <span class="sidebar-txt">Rooms</span></a>
+                        <a href="{{ route('rooms.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-house"></i></span> <span class="sidebar-txt">Rooms</span></a>
                     </li>
                     {{-- <li class="sidebar-dropdown-item">
                         <a href="{{ route('team.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-light fa-tag"></i></span> <span class="sidebar-txt">Team</span></a>
@@ -50,7 +50,6 @@
                     {{-- <li class="sidebar-dropdown-item">
                         <a href="{{ route('videos.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-film"></i></span> <span class="sidebar-txt">Video</span></a>
                     </li> --}}
-
                     <li class="sidebar-dropdown-item">
                         <a href="{{ route('blog.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-blog"></i></span> <span class="sidebar-txt">Blog</span></a>
                     </li>
