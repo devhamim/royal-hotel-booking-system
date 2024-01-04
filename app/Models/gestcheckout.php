@@ -15,4 +15,7 @@ class gestcheckout extends Model
     function rel_to_room(){
         return $this->belongsTo(rome::class, 'room_id');
     }
+    function rel_to_gestroom(){
+        return $this->belongsTo(gestroombook::class, 'gest_id');
+    }
 }

@@ -83,6 +83,8 @@ class careerListController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        careerlist::find($id)->delete();
+        toast('Delete Success','warning');
+        return back();
     }
 }

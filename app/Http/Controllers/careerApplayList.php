@@ -73,6 +73,8 @@ class careerApplayList extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        careersApplayStore::find($id)->delete();
+        toast('Delete Success','warning');
+        return back();
     }
 }

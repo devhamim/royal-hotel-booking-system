@@ -75,7 +75,7 @@
                                 <td><span class="table-dscr">{{ $careerlist->vacancy }}</span><br></td>
                                 <td>
                                     <div class="btn-box">
-                                        <form action="{{ route('customerSay.destroy',  $careerlist->id) }}" method="POST">
+                                        <form action="{{ route('careerlist.destroy',  $careerlist->id) }}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class=" border-0 mr-2">

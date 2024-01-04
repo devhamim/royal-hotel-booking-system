@@ -32,6 +32,8 @@
                     <thead>
                         <tr>
                             <th>Room</th>
+                            <th>Checkin Date</th>
+                            <th>Checkout Date</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone</th>
@@ -48,10 +50,9 @@
                     <tbody>
                         @foreach ($gestcheckings as $gestchecking)
                             <tr>
-
                                 <td><span class="table-dscr">{{ $gestchecking->room_id }}</span></td>
-                                <td><span class="table-dscr">{{ $gestchecking->checkindate }}</span></td>
-                                <td><span class="table-dscr">{{ $gestchecking->checkoutdate }}</span></td>
+                                <td><span class="table-dscr">{{ $gestchecking->rel_to_gestroom->checkin }}</span></td>
+                                <td><span class="table-dscr">{{ $gestchecking->rel_to_gestroom->checkout }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->fast_name }} {{ $gestchecking->last_name }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->email }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->number }}</span></td>
