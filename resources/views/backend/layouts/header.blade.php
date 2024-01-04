@@ -1,5 +1,5 @@
-<div class="header">
-    <div class="row g-0 align-items-center">
+<div class="header bg-black">
+    <div class="row g-0 align-items-center" >
         <div class="col-xxl-6 col-xl-5 col-4 d-flex align-items-center gap-20">
             <div class="main-logo d-lg-block d-none">
                 <div class="logo-big">
@@ -29,11 +29,11 @@
             <div class="header-right-btns d-flex justify-content-end align-items-center">
                 <div class="header-collapse-group">
                     <div class="header-right-btns d-flex justify-content-end align-items-center p-0">
-                        
+
                         <div class="header-right-btns d-flex justify-content-end align-items-center p-0">
-                            
-                            
-                           
+
+
+
                             <button class="header-btn fullscreen-btn" id="btnFullscreen"><i class="fa-light fa-expand"></i></button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                                 <span class="d-block">{{ $users->first()->email }}</span>
                             </div>
                         </li>
-                      
+
                         <li><a class="dropdown-item" href="{{ route('setting.index') }}"><span class="dropdown-icon"><i class="fa-regular fa-gear"></i></span> Settings</a></li>
                         <li>
                             <div class="">
