@@ -459,8 +459,8 @@
 		<div class="row">
 			<div class="col-lg-6">
 	    	    <div class="section-title two" data-cue="zoomIn">
-				    <h4>offers</h4>
-				    <h2>royella’s limited period best offers</h2>
+				    <h4>Offers</h4>
+				    <h2>Full Moon Hotel and Resort provide best offers</h2>
 			    </div>
 			</div>
 		</div>
