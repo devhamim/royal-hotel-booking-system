@@ -9,12 +9,12 @@
 			<div class="col-md-12">
 				<div class="breacumb-content">
 					<div class="breadcum-title">
-						<h4>Checking</h4>
+						<h4>Payment Gateway</h4>
 					</div>
 					<ul>
 						<li><a href="{{url('/')}}">Home</a></li>
 						<li>/</li>
-						<li>Checking</li>
+						<li>Payment Gateway</li>
 					</ul>
 				</div>
 			</div>
@@ -55,7 +55,7 @@
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="form-group">
                                 <label class="text-dark">PayPal Email</label>
-                                <input type="text" class="form-control simple" name="paypal_mail" placeholder="paypal@gmail.com">
+                                <input type="email" class="form-control simple" name="paypal_mail" placeholder="paypal@gmail.com">
                                 @error('paypal_mail')
                                     <strong class="text-danger">{{$message}}</strong>
                                 @enderror

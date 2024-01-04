@@ -9,12 +9,12 @@
 			<div class="col-md-12">
 				<div class="breacumb-content">
 					<div class="breadcum-title">
-						<h4>Checking</h4>
+						<h4>Guest Information</h4>
 					</div>
 					<ul>
 						<li><a href="{{url('/')}}">Home</a></li>
 						<li>/</li>
-						<li>Checking</li>
+						<li>Guest Information</li>
 					</ul>
 				</div>
 			</div>

@@ -12,7 +12,7 @@
                             <div class="col-lg-12">
                                 <div class="single-brand-box">
                                     <div class="brand-thumb">
-                                        <img width="200px" src="{{asset('uploads/client')}}/{{$client->image}}" alt="">
+                                        <img src="{{asset('uploads/client')}}/{{$client->image}}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                             <li><img src="{{asset('frontend')}}/assets/images/home-1/pt2.webp" alt=""></li>
                             <li><img src="{{asset('frontend')}}/assets/images/home-1/pt3.webp" alt=""></li>
                         </ul>
-                        
+
 					</div>
 				</div>
 			</div>
