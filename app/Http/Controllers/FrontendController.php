@@ -373,13 +373,13 @@ class FrontendController extends Controller
         $rooms = $request->input('rooms');
         $guests = $request->input('guests');
 
-        $rooms = rome::where(function($q) use ($rooms, $guests) {
+        $rooms_gest = rome::where(function($q) use ($rooms, $guests) {
             $q->where('id', 'like', '%' . $rooms . '%')
               ->orWhere('adult', 'like', '%' . $guests . '%');
         })->get();
 
         return view('frontend.roomfind', [
-            'rooms' => $rooms,
+            'rooms_gest' => $rooms_gest,
         ]);
 
     }
