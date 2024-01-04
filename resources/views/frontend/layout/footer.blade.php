@@ -70,7 +70,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="footer-widget-content">
+					<div class="footer-widget-title">
+						<h4>About</h4>
+					</div>
+					@if ( $setting->first()->about != null)
+                        <p>{{ $setting->first()->about }}</p>
+                    @endif
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-6 col-sm-6">
 				<div class="footer-widget-content upper">
 					<div class="footer-widget-title">
 						<h4>Usefull Link</h4>
@@ -86,16 +96,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-5 col-md-6 col-sm-6">
+			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="footer-widget-content">
 					<div class="footer-widget-title">
-						<h4>About</h4>
+						<h4>Partners</h4>
 					</div>
-					@if ( $setting->first()->about != null)
-                        <p>{{ $setting->first()->about }}</p>
-                    @endif
+					<div class="footer-widget-gallery">
+                        <ul>
+                            <li><img src="{{asset('frontend')}}/assets/images/home-1/pt1.webp" alt=""></li>
+                            <li><img src="{{asset('frontend')}}/assets/images/home-1/pt2.webp" alt=""></li>
+                            <li><img src="{{asset('frontend')}}/assets/images/home-1/pt3.webp" alt=""></li>
+                        </ul>
+                        
+					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
 </div>
