@@ -15,14 +15,14 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-8 m-auto text-center">
-                    <h2>{{$careerlists->post}}</h2>
+                    <h2>Application Form {{$careerlists->post}} Position</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-header">
-                            Careers Form
+                            Application Form
                         </div>
                         <div class="card-body">
                             <form action="{{route('career.applay.store')}}" method="POST" enctype="multipart/form-data">
