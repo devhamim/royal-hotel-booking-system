@@ -40,6 +40,7 @@
 					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after the
                        model. Appropriately create interactive infrastructures after maintance
                        Holisticly facilitate stand-alone
+
 					</p>
 				</div>
 				<div class="single-contact-box">
@@ -48,7 +49,9 @@
 					</div>
 					<div class="contact-title">
 						<h4>Call Us Now</h4>
-						<p>+980 123 (4567) 890</p>
+                        @if ($settings->first()->number != null)
+							<p>{{ $settings->first()->number }}</p>
+						@endif
 					</div>
 				</div>
 				<div class="single-contact-box">
@@ -57,7 +60,9 @@
 					</div>
 					<div class="contact-title">
 						<h4>Sent Email</h4>
-						<p>example@gmail.com</p>
+                        @if ($settings->first()->email != null)
+                            <p>{{ $settings->first()->email }}</p>
+                        @endif
 					</div>
 				</div>
 				<div class="single-contact-box">
@@ -66,7 +71,9 @@
 					</div>
 					<div class="contact-title">
 						<h4>Our Locations</h4>
-						<p>New elephant Road, Dhanmondi<br>Dhaka - 1212</p>
+						@if ($settings->first()->address != null)
+							<p>{{ $settings->first()->address }}</p>
+						@endif
 					</div>
 				</div>
 			</div>

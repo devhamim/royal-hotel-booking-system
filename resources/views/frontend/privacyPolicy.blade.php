@@ -1,23 +1,24 @@
 @extends('frontend.layout.app')
 @section('content')
 <!-- breadcrumb-area -->
-<section class="breadcrumb-area breadcrumb-bg" data-background="{{ asset('frontend') }}/img/bg/breadcrumb_bg01.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="breadcrumb-content">
-                    <h2>Privacy Policy</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="breadcumb-area d-flex align-items-center">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-12">
+				<div class="breacumb-content">
+					<div class="breadcum-title">
+						<h4>Privacy Policy</h4>
+					</div>
+					<ul>
+						<li><a href="{{url('/')}}">Home</a></li>
+						<li>/</li>
+						<li>Privacy Policy</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- breadcrumb-area-end -->
 
 <!-- Team Section -->

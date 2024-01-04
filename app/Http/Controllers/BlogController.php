@@ -47,7 +47,7 @@ class BlogController extends Controller
     {
         $rules = [
             'title'         =>'required',
-            'image'         =>'',
+            'image'         =>'required',
             'description'   =>'required',
             'define'       =>'required',
         ];

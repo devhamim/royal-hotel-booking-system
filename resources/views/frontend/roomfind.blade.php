@@ -66,7 +66,7 @@
                     <div class="booking-input-box upper">
                         <h4>Guests</h4>
                         <select name="guests" class="guests">
-                            @foreach ($rooms as $room)
+                            @foreach ($rooms->take(4) as $room)
                                 <option value="{{$room->id}}">{{$room->adult}} Adult, {{$room->childreen}}  Child</option>
                             @endforeach
                         </select>

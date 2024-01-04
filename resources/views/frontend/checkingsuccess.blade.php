@@ -15,9 +15,9 @@
     <div class="container">
        <div class="row">
         <div class="col-lg-8 m-auto text-center">
-            <h4 class="text-success">Success</h4>
-            <img width="100px" src="{{asset('frontend/assets/images/home-1/success.png')}}" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi qui consequatur ad tempora rerum vel ut sequi iure esse dolorum impedit, perferendis dignissimos praesentium obcaecati in! Expedita id aspernatur ipsum dignissimos deleniti ducimus.</p>
+            <h4 class="text-danger">Payment Failed</h4>
+            <img width="80px" src="{{asset('frontend/assets/images/home-1/error.png')}}" alt="">
+            <p class="pt-3">payment transaction was not successful for some reason. The reasons for payment failures can vary, including insufficient funds, technical issues, incorrect payment information, or security measures.</p>
             <a href="{{url('/')}}" class="btn btn-dark">Home</a>
         </div>
 

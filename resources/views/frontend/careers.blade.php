@@ -33,7 +33,9 @@
 <div class="about-area inner">
     <div class="container">
         <h2>Careers List</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, odio dolor et a deleniti impedit molestias in nam neque totam ut explicabo. Excepturi accusantium, modi cupiditate maiores assumenda quas hic ullam a, ad voluptatum quod consectetur eligendi praesentium asperiores consequatur ducimus rerum distinctio dignissimos corporis voluptatibus eos dolor! Ut officia nulla amet dolorem! Cumque voluptatum assumenda, mollitia atque sapiente alias minima. Dignissimos tempora, ullam ex dolorem delectus, ad ut sapiente eum earum sunt sed dolorum eos cupiditate architecto placeat exercitationem modi aut vitae, dolores sit doloribus cum dicta porro obcaecati. Explicabo alias culpa pariatur! Placeat itaque eaque minus assumenda adipisci.</p>
+        <p>Full Moon Hotel and Restaurant takes real pride in welcoming fresh and new talent to our increasing dynamic workforce. In addition to Canada nationals, our team comprises of expatriates from various other nationalities. Your career can be pursued in the following departments.</p>
+
+            <p>Our passionate workforce offers our customers with quality service that is trusted, treasured and experienced repeatedly. For any inquiries related to job vacancies, feel free to contact our recruitment team, career@fullmooncanada.com</p>
     </div>
 </div>
 <div class="about-area inner">
@@ -48,13 +50,15 @@
                         <div class="card-body">
                             <table class="table table-bordered">
                                 <tr>
+                                    <th>No.</th>
                                     <th>Department</th>
                                     <th>Position</th>
                                     <th>Vacancy</th>
                                     <th>Action</th>
                                 </tr>
-                                @foreach ($careerlists as $careerlist)
+                                @foreach ($careerlists as $sl=>$careerlist)
                                     <tr>
+                                        <td>{{$sl+1}}</td>
                                         <td>{{ $careerlist->department }}</td>
                                         <td>{{ $careerlist->post }}</td>
                                         <td>{{ $careerlist->vacancy }}</td>

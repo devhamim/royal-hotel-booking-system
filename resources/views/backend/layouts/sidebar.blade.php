@@ -39,7 +39,7 @@
                         <a href="{{ route('customerSay.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-light fa-cart-shopping-fast"></i></span> <span class="sidebar-txt">Customer Say</span></a>
                     </li>
                     <li class="sidebar-dropdown-item">
-                        <a href="{{ route('client.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-light fa-calendar"></i></span> <span class="sidebar-txt">Clients</span></a>
+                        <a href="{{ route('client.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-light fa-calendar"></i></span> <span class="sidebar-txt">Partners</span></a>
                     </li>
                     <li class="sidebar-dropdown-item">
                         <a href="{{ route('gallery.index') }}" class="sidebar-link"><span class="nav-icon"><i class="fa-solid fa-images"></i></span> <span class="sidebar-txt">Gallery</span></a>

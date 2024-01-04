@@ -45,7 +45,7 @@
 							</div>
 		                    <div class="blog-content">
 		                       <div class="meta-blog">
-                                <span>{{$blog->created_at->format('d,M,Y')}}</span>
+
 							    </div>
 		                    	<a href="{{route('our.blog.details',$blog->slug)}}">{{$blog->title}}</a>
 		                    </div>
@@ -74,7 +74,6 @@
                                     </div>
                                     <div class="recent-widget-content">
                                         <a href="{{route('our.blog.details',$blog->slug)}}">{{$blog->title}}</a>
-                                        <p> {{$blog->created_at->format('d,M,Y')}}</p>
                                     </div>
                                 </div>
                             @endforeach

@@ -71,7 +71,7 @@
 				<div class="booking-input-box upper">
 					<h4>Guests</h4>
 					<select name="guests" class="guests">
-                        @foreach ($rooms->take(5) as $room)
+                        @foreach ($rooms->take(4) as $room)
                             <option value="{{$room->id}}">{{$room->adult}} Adult, {{$room->childreen}}  Child</option>
                         @endforeach
                     </select>
@@ -576,9 +576,7 @@
                             </a>
                         </div>
                         <div class="blog-content">
-                        <div class="meta-blog">
-                            <span>{{$blog->created_at->format('d,M,Y')}}</span>
-                        </div>
+
                             <a href="{{route('our.blog.details',$blog->slug)}}">{{$blog->title}}</a>
                         </div>
                         <div class="blog-button">

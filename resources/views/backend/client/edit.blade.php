@@ -3,13 +3,13 @@
 @section('content')
 
 <div class="dashboard-breadcrumb mb-30">
-    <h2>Client</h2>
+    <h2>Partners</h2>
 </div>
 <div class="row g-4">
     <div class="col-xxl-6 col-md-4 m-auto">
         <div class="panel">
             <div class="panel-header">
-                <h5>Edit Client</h5>
+                <h5>Edit Partners</h5>
             </div>
             <div class="panel-body">
                 <form action="{{ route('client.update', $clients->id) }}" method="POST" enctype="multipart/form-data">
@@ -21,7 +21,7 @@
                             <label class="form-label">Name</label>
                             <input type="text" name="name" class="form-control form-control-sm" value="{{ $clients->name }}">
                         </div>
-                        
+
                         <div class="col-12">
                             <div class="upload-category-thumbnail">
                                 <label class="form-label" id="addCatThumb">Image</label>
@@ -31,7 +31,7 @@
                                 <img width="100" id="blah" src="{{ asset('uploads/client') }}/{{ $clients->image }}" alt="">
                             </div>
                         </div>
-                       
+
                         <div class="col-12">
                             <label class="form-label">Status</label>
                             <select name="status" class="form-control form-control-sm" id="">
@@ -49,6 +49,6 @@
             </div>
         </div>
     </div>
-    
+
 </div>
 @endsection

@@ -56,10 +56,16 @@
                             <div class="form-group">
                                 <label class="text-dark">PayPal Email</label>
                                 <input type="text" class="form-control simple" name="paypal_mail" placeholder="paypal@gmail.com">
+                                @error('paypal_mail')
+                                    <strong class="text-danger">{{$message}}</strong>
+                                @enderror
                             </div>
                             <div class="form-group">
                                 <label class="text-dark">Password</label>
                                 <input type="password" class="form-control simple" name="transaction_id" placeholder="Password">
+                                @error('transaction_id')
+                                    <strong class="text-danger">{{$message}}</strong>
+                                @enderror
                             </div>
                             <div class="form-group mb-5">
                                 <input type="hidden" name="paypal" value="Paypal">
@@ -72,6 +78,9 @@
                                     <div class="form-group">
                                         <label class="text-dark">Card Holder Name *</label>
                                         <input type="text" class="form-control" name="card_holder" placeholder="Card Holder Name" />
+                                        @error('card_holder')
+                                        <strong class="text-danger">{{$message}}</strong>
+                                    @enderror
                                     </div>
                                 </div>
 
@@ -79,6 +88,9 @@
                                     <div class="form-group">
                                         <label class="text-dark">Card Number *</label>
                                         <input type="text" class="form-control" name="card_number" placeholder="7589 6356 8547 9120" />
+                                        @error('card_number')
+                                        <strong class="text-danger">{{$message}}</strong>
+                                    @enderror
                                     </div>
                                 </div>
 
@@ -99,6 +111,9 @@
                                             <option value="november">November</option>
                                             <option value="december">December</option>
                                         </select>
+                                        @error('expire_month')
+                                        <strong class="text-danger">{{$message}}</strong>
+                                    @enderror
                                     </div>
                                 </div>
 
@@ -116,6 +131,9 @@
                                             <option value="2029">2029</option>
                                             <option value="2030">2030</option>
                                         </select>
+                                        @error('expire_year')
+                                        <strong class="text-danger">{{$message}}</strong>
+                                    @enderror
                                     </div>
                                 </div>
 
@@ -123,6 +141,9 @@
                                     <div class="form-group">
                                         <label class="text-dark">CVC *</label>
                                         <input type="text" class="form-control" name="cvc" placeholder="CVC*" />
+                                        @error('cvc')
+                                        <strong class="text-danger">{{$message}}</strong>
+                                    @enderror
                                     </div>
                                 </div>
                                 <div class="form-group mb-5">

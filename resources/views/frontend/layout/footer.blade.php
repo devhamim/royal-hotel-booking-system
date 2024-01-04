@@ -8,27 +8,15 @@
 			<div class="col-lg-8">
 				<div class="row">
 					<div class="brand-list owl-carousel">
-					    <div class="col-lg-12">
-						    <div class="single-brand-box">
-							    <div class="brand-thumb">
-							    	<img src="{{asset('frontend')}}/assets/images/home-1/brand-1.png" alt="">
-							    </div>
-						    </div>
-					    </div>
-					    <div class="col-lg-12">
-						    <div class="single-brand-box">
-							    <div class="brand-thumb">
-							    	<img src="{{asset('frontend')}}/assets/images/home-1/brand-2.png" alt="">
-							    </div>
-						    </div>
-					    </div>
-					    <div class="col-lg-12">
-						    <div class="single-brand-box">
-							    <div class="brand-thumb">
-							    	<img src="{{asset('frontend')}}/assets/images/home-1/brand-3.png" alt="">
-							    </div>
-						    </div>
-					    </div>
+                        @foreach ($clients as $client)
+                            <div class="col-lg-12">
+                                <div class="single-brand-box">
+                                    <div class="brand-thumb">
+                                        <img width="200px" src="{{asset('uploads/client')}}/{{$client->image}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
 					</div>
 				</div>
 			</div>
@@ -82,38 +70,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2 col-md-6 col-sm-6">
+			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="footer-widget-content upper">
 					<div class="footer-widget-title">
-						<h4>Useful Links</h4>
+						<h4>Usefull Link</h4>
 					</div>
 					<div class="footer-widget-menu">
                         <ul>
                          	<li><a href="{{route('about_us')}}">About</a></li>
                          	<li><a href="{{route('career')}}">Career</a></li>
-                         	<li><a href="{{ route('gallerys') }}">Gallerys</a></li>
                          	<li><a href="{{ route('our.blog') }}">Blog</a></li>
                          	<li><a href="{{route('contect')}}">Contact</a></li>
+                         	<li><a href="{{ route('our.privacy.policy') }}">Privacy Policy</a></li>
                         </ul>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="footer-widget-content">
-					<div class="footer-widget-title">
-						<h4>Gallery</h4>
-					</div>
-					<div class="footer-widget-gallery">
-                        <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-1.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-1.jpg" alt=""></a>
-                         <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-2.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-2.jpg" alt=""></a>
-                        <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-3.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-3.jpg" alt=""></a>
-                        <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-4.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-4.jpg" alt=""></a>
-                        <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-5.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-5.jpg" alt=""></a>
-                        <a class="place venobox vbox-item" data-gall="lace-imgs" href="{{asset('frontend')}}/assets/images/home-1/gallery-6.jpg"><img src="{{asset('frontend')}}/assets/images/home-1/gallery-6.jpg" alt=""></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
+			<div class="col-lg-5 col-md-6 col-sm-6">
 				<div class="footer-widget-content">
 					<div class="footer-widget-title">
 						<h4>About</h4>

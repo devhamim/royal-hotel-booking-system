@@ -42,9 +42,7 @@
 						</div>
 						<div class="blog-details-content">
 							<div class="meta-blog" data-cue="zoomIn">
-								<ul>
-									<li>{{ $blogs->first()->created_at->format('d-M-Y') }}</li>
-								</ul>
+
 							</div>
 							<div class="blog-details-title" data-cue="zoomIn">
 								<a>{{ $blogs->first()->title }}</a>
@@ -136,7 +134,7 @@
                                     </div>
                                     <div class="recent-widget-content">
                                         <a href="{{route('our.blog.details',$latest->slug)}}">{{$latest->title}}</a>
-                                        <p> {{$latest->created_at->format('d,M,Y')}}</p>
+                                        
                                     </div>
                                 </div>
                             @endforeach

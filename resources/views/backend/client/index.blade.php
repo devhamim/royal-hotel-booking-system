@@ -2,13 +2,13 @@
 
 @section('content')
 <div class="dashboard-breadcrumb mb-30">
-    <h2>Client</h2>
+    <h2>Partners</h2>
 </div>
 <div class="row g-4">
     <div class="col-xxl-4 col-md-5">
         <div class="panel">
             <div class="panel-header">
-                <h5>Add New Client</h5>
+                <h5>Add New Partners</h5>
             </div>
             <div class="panel-body">
                 <form action="{{ route('client.store') }}" method="POST" enctype="multipart/form-data">
@@ -35,11 +35,11 @@
     <div class="col-xxl-8 col-md-7">
         <div class="panel">
             <div class="panel-header">
-                <h5>All Client</h5>
+                <h5>All Partners</h5>
                 <div class="btn-box d-flex gap-2">
                     <div id="tableSearch"></div>
                     <div class="digi-dropdown dropdown">
-                        
+
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 <div class="table-filter-option">
                     <div class="row justify-content-between g-3">
                         <div class="col-xxl-4 col-6 col-xs-12">
-                            
+
                         </div>
                         <div class="col-xl-2 col-3 col-xs-12 d-flex justify-content-end">
                             <div id="productTableLength"></div>
