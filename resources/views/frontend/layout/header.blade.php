@@ -8,7 +8,7 @@
 				<div class="header-logo">
 					<a href="{{url('/')}}">
                         @if ($setting->first()->logo != null)
-                            <img width="90" src="{{ asset('uploads/setting') }}/{{ $setting->first()->logo }}" alt="Logo">
+                            <img src="{{ asset('uploads/setting') }}/{{ $setting->first()->logo }}" alt="Logo">
                         @endif
                     </a>
 				</div>
