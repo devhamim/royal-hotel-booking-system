@@ -41,7 +41,6 @@
                             <th>Country</th>
                             <th>City</th>
                             <th>Zip</th>
-                            <th>Note</th>
                             <th>Payment Method</th>
                             <th>Transaction Details</th>
                             <th>Action</th>
@@ -60,9 +59,6 @@
                                 <td><span class="table-dscr">{{ $gestchecking->country }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->city }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->zip }}</span></td>
-                                <td>
-                                    <span class="table-dscr">{{ Str::limit($gestchecking->note, 20, '...') }}</span>
-                                </td>
                                 <td>
                                     <span class="table-dscr">
                                         @if ($gestchecking->paypal)
