@@ -79,7 +79,7 @@
 			<div id="status"></div>
 		</div>
 		<div class="row align-items-center">
-            @foreach ($rooms as $room)
+            @foreach ($rooms_gest as $room)
 		    <div class="col-lg-4 col-md-6">
 				<div class="room-single-box" data-cue="zoomIn">
 					<div class="room-thumb">
