@@ -23,7 +23,6 @@ use App\Models\privacyPolicy;
 use App\Models\product;
 use App\Models\rome;
 use App\Models\video;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Str;
 
@@ -277,14 +276,6 @@ class FrontendController extends Controller
         ];
 
         $validatedData = $request->validate($rules);
-
-        $checkIn = Carbon::parse($request->check_in);
-        $checkOut = Carbon::parse($request->check_out);
-        $nights = $checkIn->diffInDays($checkOut);
-
-        // Retrieve the room and calculate the total price
-        $room = Room::find(1); // Replace with your actual logic to find a room
-        $totalPrice = $room->price_per_night * $nights * $request->rooms;
 
         $gestroomdata = gestroombook::create($validatedData);
         toast('Add Success','success');

@@ -69,7 +69,7 @@
                             </div>
                             <div class="form-group mb-5">
                                 <input type="hidden" name="paypal" value="Paypal">
-                                <button type="submit" name="btn" value="1" class="btn btn-dark btm-md full-width">Pay {{$checkouts->first()->rel_to_room->price}} USD</button>
+                                <button type="submit" name="btn" value="1" class="btn btn-dark py-2 px-5 mt-3 full-width">Pay Now</button>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
@@ -146,7 +146,7 @@
                                 </div>
                                 <div class="form-group mb-5">
                                     <input type="hidden" name="debit" value="Debit">
-                                    <button type="submit" name="btn" value="3" class="btn btn-dark btm-md full-width">Pay {{$checkouts->first()->rel_to_room->price}} USD</button>
+                                    <button type="submit" name="btn" value="3" class="btn btn-dark py-2 px-5 mt-3 full-width">Pay Now</button>
                                 </div>
                             </div>
                         </div>

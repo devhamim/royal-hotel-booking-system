@@ -502,9 +502,8 @@
 					<div class="section-thumb">
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
-					<h1>Ustomer’s TestimonialL</h1>
-					<p class="section-desc-1">Proactively morph optimal infomediaries rather than accurate expertise. Intrinsicly
-                     progressive resources rather than resource-leveling</p>
+					<h1>Guest Testimonials</h1>
+					<p class="section-desc-1">Customers speak volumes about their unforgettable experiences at Full Moon. Exceptional service, luxurious amenities, and personalized attention make us their top choice for creating lasting memories.</p>
 				</div>
 			</div>
 		</div>
