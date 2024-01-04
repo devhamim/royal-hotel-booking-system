@@ -252,16 +252,20 @@ class FrontendController extends Controller
     function room_finds(){
         $rooms = rome::where('status', 1)->get();
         $rooms_gest = rome::where('status', 1)->orderBy('id', 'ASC')->get();
+        $checkIn = '';
+        $checkOut = '';
         return view('frontend.roomfind', [
             'rooms'=>$rooms,
             'rooms_gest'=>$rooms_gest,
+            'checkIn'=>$checkIn,
+            'checkOut'=>$checkOut,
         ]);
     }
 
     function room_details($slug, Request $request){
         $rooms = rome::where('slug',$slug)->where('status', 1)->get();
-        $checkIn = $request->input('check_in');
-        $checkOut = $request->input('check_out');
+        $checkIn = $request->input('check_in', null);
+        $checkOut = $request->input('check_out', null);
         return view('frontend.roomDetails', [
             'rooms'=>$rooms,
             'checkIn'=>$checkIn,
@@ -381,8 +385,8 @@ class FrontendController extends Controller
             'check_in.after_or_equal' => 'Check-in date must be today or a future date.',
         ]);
 
-        $checkIn = $request->input('check_in');
-        $checkOut = $request->input('check_out');
+        $checkIn = $request->input('check_in', null);
+        $checkOut = $request->input('check_out', null);
         $rooms = $request->input('rooms');
         $guests = $request->input('guests');
 
