@@ -460,7 +460,7 @@
 			<div class="col-lg-6">
 	    	    <div class="section-title two" data-cue="zoomIn">
 				    <h4>Offers</h4>
-				    <h2>Full Moon Hotel and Resort provide best offers</h2>
+				    <h2>Full Moon Provide Best Offers</h2>
 			    </div>
 			</div>
 		</div>
