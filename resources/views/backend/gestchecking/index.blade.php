@@ -48,7 +48,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($gestcheckings as $gestchecking)
+                        {{-- @foreach ($gestcheckings as $gestchecking)
                             <tr>
                                 <td><span class="table-dscr">{{ $gestchecking->room_id }}</span></td>
                                 <td><span class="table-dscr">{{ $gestchecking->rel_to_gestroom->checkin }}</span></td>
@@ -104,7 +104,7 @@
                                     </div>
                                 </td>
                             </tr>
-                        @endforeach
+                        @endforeach --}}
                     </tbody>
                 </table>
                 <div class="table-bottom-control"></div>
