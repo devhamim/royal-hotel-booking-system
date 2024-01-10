@@ -48,9 +48,9 @@
 						</div>
 						<div class="footer-widget-contact-info">
 							<ul>
-                                @if ($setting->first()->number != null)
+                                {{-- @if ($setting->first()->number != null)
                                     <li><i class="bi bi-telephone-fill"></i> <span>Phone : </span>{{ $setting->first()->number }}</li>
-                                @endif
+                                @endif --}}
                                 @if ($setting->first()->email != null)
                                     <li><i class="bi bi-envelope"></i><span>Email : </span>{{ $setting->first()->email }}</li>
                                 @endif
