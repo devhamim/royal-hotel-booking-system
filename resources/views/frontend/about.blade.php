@@ -41,9 +41,9 @@
 			</div>
 			<div class="col-lg-6  upper">
 				<div class="section-title two">
-					<h4>Luxury Hotel And Resort</h4>
+					<h4>Luxury Hotel And Restaurant</h4>
 					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to our distinguished hotel and resort in Canada, an enclave where luxury meets the splendor of nature. Nestled in the heart of breathtaking landscapes, our establishment is designed to provide a seamless blend of opulence and serenity. Our offerings include lavish accommodations, exceptional dining experiences, and a range of world-class amenities, such as a rejuvenating spa, recreational facilities, and versatile event spaces. With a commitment to impeccable service and attention to detail, our dedicated team ensures that every guest experiences a stay marked by comfort and indulgence. Whether you're seeking a tranquil retreat or a venue for special occasions, our hotel and resort stands as an embodiment of Canadian hospitality, offering an unparalleled escape. Choose us for an immersive experience where the beauty of the surroundings harmonizes with luxurious comforts, promising an extraordinary stay that reflects our commitment to excellence in hospitality. Welcome to a haven where every detail is crafted to elevate your experience, providing a memorable journey in the heart of Canada.</p>
+					<p class="section-desc-2">Welcome to our distinguished hotel and restaurant in Canada, an enclave where luxury meets the splendor of nature. Nestled in the heart of breathtaking landscapes, our establishment is designed to provide a seamless blend of opulence and serenity. Our offerings include lavish accommodations, exceptional dining experiences, and a range of world-class amenities, such as a rejuvenating spa, recreational facilities, and versatile event spaces. With a commitment to impeccable service and attention to detail, our dedicated team ensures that every guest experiences a stay marked by comfort and indulgence. Whether you're seeking a tranquil retreat or a venue for special occasions, our hotel and restaurant stands as an embodiment of Canadian hospitality, offering an unparalleled escape. Choose us for an immersive experience where the beauty of the surroundings harmonizes with luxurious comforts, promising an extraordinary stay that reflects our commitment to excellence in hospitality. Welcome to a haven where every detail is crafted to elevate your experience, providing a memorable journey in the heart of Canada.</p>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@
                 <p><strong>Vision:</strong> Our vision is to be the epitome of refined living, offering an unparalleled escape that harmoniously integrates opulence with the pristine beauty of the Canadian landscape. We aspire to be a beacon of luxury that sets new standards in hospitality.</p>
             </div>
             <div class="col-lg-12">
-                <p><strong>Why Choose Us:</strong> Choose us for an unrivaled synthesis of sophistication and natural beauty. We pride ourselves on personalized service, attention to detail, and a commitment to sustainability. Whether you seek a tranquil retreat, a memorable event venue, or an adventure-filled getaway, our hotel and resort is the ultimate choice. We offer more than accommodation; we offer an immersive experience where every moment is tailored to create lasting memories. Discover the allure of our haven, where the extraordinary is the standard.</p>
+                <p><strong>Why Choose Us:</strong> Choose us for an unrivaled synthesis of sophistication and natural beauty. We pride ourselves on personalized service, attention to detail, and a commitment to sustainability. Whether you seek a tranquil retreat, a memorable event venue, or an adventure-filled getaway, our hotel and restaurant is the ultimate choice. We offer more than accommodation; we offer an immersive experience where every moment is tailored to create lasting memories. Discover the allure of our haven, where the extraordinary is the standard.</p>
             </div>
         </div>
 	</div>
@@ -79,7 +79,7 @@
 				<div class="section-title two">
 					<h4>Manager</h4>
 					<h2>The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to our Canadian luxury hotel and resort! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
+					<p class="section-desc-2">Welcome to Full Moon hotel and restaurant! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
 				</div>
 				<div class="call-do-action-text">
 					<a href="#">“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
@@ -113,7 +113,7 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>Full Moon Canada Facilities</h1>
-					<p class="section-desc-1">Immerse yourself in the lap of luxury with our state-of-the-art facilities. From lavishly appointed rooms and suites that offer breathtaking views to world-class dining that tantalizes the taste buds, every detail is crafted to enhance your stay. Our resort features a rejuvenating spa, recreational amenities, and event spaces that cater to both leisure and business travelers.</p>
+					<p class="section-desc-1">Immerse yourself in the lap of luxury with our state-of-the-art facilities. From lavishly appointed rooms and suites that offer breathtaking views to world-class dining that tantalizes the taste buds, every detail is crafted to enhance your stay. Our restaurant features a rejuvenating spa, recreational amenities, and event spaces that cater to both leisure and business travelers.</p>
 				</div>
 			</div>
 		</div>

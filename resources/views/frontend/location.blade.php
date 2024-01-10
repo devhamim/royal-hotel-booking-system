@@ -39,7 +39,7 @@
 			</div>
 			<div class="col-lg-6  upper">
 				<div class="section-title two">
-					<h4>Luxury Hotel And Resort</h4>
+					<h4>Luxury Hotel And Restaurant</h4>
 					<h1>Luxury Best Hotel In City</h1>
 					<h1>Californta, Usa</h1>
 					<p class="section-desc-2">Rapidiously myocardinate cross-platform intellectual capital after marketing

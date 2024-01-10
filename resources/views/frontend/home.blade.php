@@ -185,9 +185,9 @@
 			</div>
 			<div class="col-lg-6 col-md-12  upper">
 				<div class="section-title two" data-cue="zoomIn">
-					<h4>Luxury Hotel And Resort</h4>
+					<h4>Luxury Hotel And Restaurant</h4>
 					<h2>FULL MOON - The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to our premier resort Full Moon in Canada, where breathtaking landscapes meet unrivaled luxury. As a distinguished hospitality haven, we offer an immersive escape into natural beauty coupled with exquisite amenities. Our commitment to exceptional service ensures an unparalleled retreat, inviting you to experience the epitome of tranquility and indulgence.</p>
+					<p class="section-desc-2">Welcome to our premier restaurant Full Moon in Canada, where breathtaking landscapes meet unrivaled luxury. As a distinguished hospitality haven, we offer an immersive escape into natural beauty coupled with exquisite amenities. Our commitment to exceptional service ensures an unparalleled retreat, inviting you to experience the epitome of tranquility and indulgence.</p>
 				</div>
 				<div class="about-conuter-box" data-cue="zoomIn">
 					<div class="about-counter-content">
@@ -229,7 +229,7 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/section-shape1.png" alt="">
 					</div>
 					<h1>Hotel’S Facilities</h1>
-					<p class="section-desc-1">Immerse yourself in the lap of luxury with our state-of-the-art facilities. From lavishly appointed rooms and suites that offer breathtaking views to world-class dining that tantalizes the taste buds, every detail is crafted to enhance your stay. Our resort features a rejuvenating spa, recreational amenities, and event spaces that cater to both leisure and business travelers.</p>
+					<p class="section-desc-1">Immerse yourself in the lap of luxury with our state-of-the-art facilities. From lavishly appointed rooms and suites that offer breathtaking views to world-class dining that tantalizes the taste buds, every detail is crafted to enhance your stay. Our restaurant features a rejuvenating spa, recreational amenities, and event spaces that cater to both leisure and business travelers.</p>
 				</div>
 			</div>
 		</div>
@@ -313,7 +313,7 @@
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Manager</h4>
 					<h2>The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to our Canadian luxury hotel and resort! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
+					<p class="section-desc-2">Welcome to Full Moon hotel and restaurant! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
 				</div>
 				<div class="call-do-action-text" data-cue="zoomIn">
 					<a>“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
@@ -352,7 +352,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title two" data-cue="zoomIn">
 					<h4>Facilities</h4>
-					<h2>The Full Moon Canada hotel and resort for enjoy your luxurious life</h2>
+					<h2>The Full Moon Canada hotel and restaurant for enjoy your luxurious life</h2>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
@@ -374,7 +374,7 @@
 					<div class="facilities-content">
 						<h4>Fitness</h4>
 					    <h1>Gym Grounds</h1>
-						<p>Indulge in our state-of-the-art gym facilities at our Canadian hotel and resort. Equipped with cutting-edge fitness equipment, our gym offers a rejuvenating space for your workout routine. Enjoy panoramic views as you engage in a holistic fitness experience. Whether you prefer cardio, strength training, or group classes, our facilities cater to all fitness enthusiasts, ensuring a refreshing and invigorating wellness journey during your stay.</p>
+						<p>Indulge in our state-of-the-art gym facilities at our Canadian hotel and restaurant. Equipped with cutting-edge fitness equipment, our gym offers a rejuvenating space for your workout routine. Enjoy panoramic views as you engage in a holistic fitness experience. Whether you prefer cardio, strength training, or group classes, our facilities cater to all fitness enthusiasts, ensuring a refreshing and invigorating wellness journey during your stay.</p>
 						{{-- <a class="facilities-button" href="services-details.html"><i class="bi bi-arrow-right"></i></a> --}}
 					</div>
 					<div class="facilities-number">
@@ -421,7 +421,7 @@
 					<div class="facilities-content">
 						<h4>Restaurent</h4>
 					    <h1>The Buffet Restaurant</h1>
-						<p>Savor exquisite dining at our Canadian hotel and resort. Our restaurant offers a diverse menu, from hearty breakfasts to gourmet dinners. With a cozy ambiance and attentive staff, it's the perfect spot to enjoy delicious meals. Whether you're here for a leisurely brunch or a romantic dinner, our restaurant provides a delightful culinary experience for a memorable stay.</p>
+						<p>Savor exquisite dining at our Canadian hotel and restaurant. Our restaurant offers a diverse menu, from hearty breakfasts to gourmet dinners. With a cozy ambiance and attentive staff, it's the perfect spot to enjoy delicious meals. Whether you're here for a leisurely brunch or a romantic dinner, our restaurant provides a delightful culinary experience for a memorable stay.</p>
 						{{-- <a class="facilities-button" href="services-details.html"><i class="bi bi-arrow-right"></i></a> --}}
 					</div>
 					<div class="facilities-number">

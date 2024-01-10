@@ -54,7 +54,7 @@
 					<div class="facilities-content">
 						<h4>Fitness</h4>
 					    <h2>Gym Grounds</h2>
-						<p>Indulge in our state-of-the-art gym facilities at our Canadian hotel and resort. Equipped with cutting-edge fitness equipment, our gym offers a rejuvenating space for your workout routine. Enjoy panoramic views as you engage in a holistic fitness experience. Whether you prefer cardio, strength training, or group classes, our facilities cater to all fitness enthusiasts, ensuring a refreshing and invigorating wellness journey during your stay.</p>
+						<p>Indulge in our state-of-the-art gym facilities at our Canadian hotel and restaurant. Equipped with cutting-edge fitness equipment, our gym offers a rejuvenating space for your workout routine. Enjoy panoramic views as you engage in a holistic fitness experience. Whether you prefer cardio, strength training, or group classes, our facilities cater to all fitness enthusiasts, ensuring a refreshing and invigorating wellness journey during your stay.</p>
 						{{-- <a class="facilities-button" href="services-details.html"><i class="bi bi-arrow-right"></i></a> --}}
 					</div>
 					<div class="facilities-number">
@@ -101,7 +101,7 @@
 					<div class="facilities-content">
 						<h4>Restaurent</h4>
 					    <h2>The Restaurent Center</h2>
-						<p>Savor exquisite dining at our Canadian hotel and resort. Our restaurant offers a diverse menu, from hearty breakfasts to gourmet dinners. With a cozy ambiance and attentive staff, it's the perfect spot to enjoy delicious meals. Whether you're here for a leisurely brunch or a romantic dinner, our restaurant provides a delightful culinary experience for a memorable stay.</p>
+						<p>Savor exquisite dining at our Canadian hotel and restaurant. Our restaurant offers a diverse menu, from hearty breakfasts to gourmet dinners. With a cozy ambiance and attentive staff, it's the perfect spot to enjoy delicious meals. Whether you're here for a leisurely brunch or a romantic dinner, our restaurant provides a delightful culinary experience for a memorable stay.</p>
 						{{-- <a class="facilities-button" href="services-details.html"><i class="bi bi-arrow-right"></i></a> --}}
 					</div>
 					<div class="facilities-number">
