@@ -40,7 +40,7 @@
 					<p class="section-desc-2">We value your inquiries and feedback. Our dedicated team is ready to assist you.
 					</p>
 				</div>
-				<div class="single-contact-box">
+				{{-- <div class="single-contact-box">
 					<div class="contact-icon">
 						<i class="bi bi-telephone-fill"></i>
 					</div>
@@ -50,7 +50,7 @@
 							<p>{{ $settings->first()->number }}</p>
 						@endif
 					</div>
-				</div>
+				</div> --}}
 				<div class="single-contact-box">
 					<div class="contact-icon">
 						<i class="bi bi-envelope"></i>
@@ -120,7 +120,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="google-map-content">
-				
+
 			</div>
 		</div>
 	</div>
