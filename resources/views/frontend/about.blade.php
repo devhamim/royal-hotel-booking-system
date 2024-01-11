@@ -79,7 +79,7 @@
 				<div class="section-title two">
 					<h4>Manager</h4>
 					<h2>The Best Luxury Hotel in Canada</h2>
-					<p class="section-desc-2">Welcome to Full Moon hotel and restaurant! Meet our dedicated manager, Ryan D. Simmons, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Ryan D. Simmons and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
+					<p class="section-desc-2">Welcome to Full Moon hotel and restaurant! Meet our dedicated manager, Mr. Kennet L. Wall, a seasoned professional committed to ensuring your stay exceeds expectations. With a passion for hospitality, Mr. Kennet L. Wall and the entire team are here to curate a personalized and unforgettable experience, blending opulence with the natural beauty that surrounds us.</p>
 				</div>
 				<div class="call-do-action-text">
 					<a href="#">“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
@@ -89,8 +89,9 @@
 						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
 					</div>
 					<div class="call-do-action-content">
-						<h4>Ryan D. Simmons</h4>
-						<p>Manger</p>
+						<h4>Mr. Kennet L. Wall</h4>
+						<p>Associate for Admission and Minority Affairs</p>
+                        <a href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow</a>
 					</div>
 				</div>
 			</div>

@@ -325,6 +325,7 @@
 					<div class="call-do-action-content">
 						<h4>Mr. Kennet L. Wall</h4>
 						<p>Associate for Admission and Minority Affairs</p>
+                        <a href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow</a>
 					</div>
 				</div>
 			</div>
