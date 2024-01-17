@@ -318,16 +318,16 @@
 				<div class="call-do-action-text" data-cue="zoomIn">
 					<a>“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
 				</div>
-				{{-- <div class="call-do-action-author" data-cue="zoomIn">
+				<div class="call-do-action-author" data-cue="zoomIn">
 					<div class="call-do-action-author-thumb">
-						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
+						{{-- <img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt=""> --}}
 					</div>
 					<div class="call-do-action-content">
 						<h4>Mr. Kennet L. Wall</h4>
 						<p>Associate for Admission and Minority Affairs</p>
-                        <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow Linkedin</a>
+                        {{-- <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow Linkedin</a> --}}
 					</div>
-				</div> --}}
+				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="call-do-action-video" data-cues="zoomIn">

@@ -84,16 +84,16 @@
 				<div class="call-do-action-text">
 					<a href="#">“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
 				</div>
-				{{-- <div class="call-do-action-author">
+				<div class="call-do-action-author">
 					<div class="call-do-action-author-thumb">
-						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
+						{{-- <img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt=""> --}}
 					</div>
 					<div class="call-do-action-content">
 						<h4>Mr. Kennet L. Wall</h4>
 						<p>Associate for Admission and Minority Affairs</p>
-                        <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow Linkedin</a>
+                        {{-- <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow Linkedin</a> --}}
 					</div>
-				</div> --}}
+				</div>
 			</div>
 		</div>
 	</div>
