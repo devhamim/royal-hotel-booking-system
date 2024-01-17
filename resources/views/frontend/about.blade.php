@@ -72,7 +72,7 @@
 		<div class="row align-items-center call-do-action-bg">
 			<div class="col-lg-6 col-md-12">
 				<div class="call-do-action-video" data-cue="zoomIn">
-					<a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=aD2anRT9TDk"><i class="bi bi-play"></i></a>
+					{{-- <a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=aD2anRT9TDk"><i class="bi bi-play"></i></a> --}}
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 matha-ta-ghurlo" data-cue="zoomIn">
@@ -84,7 +84,7 @@
 				<div class="call-do-action-text">
 					<a href="#">“ Your comfort and satisfaction are at the forefront of our service philosophy. Should you require anything or have special requests, our team is here to make your experience truly exceptional. ”</a>
 				</div>
-				<div class="call-do-action-author">
+				{{-- <div class="call-do-action-author">
 					<div class="call-do-action-author-thumb">
 						<img src="{{asset('frontend')}}/assets/images/home-1/call-do-action-img.png" alt="">
 					</div>
@@ -93,7 +93,7 @@
 						<p>Associate for Admission and Minority Affairs</p>
                         <a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/mr-kennet-l-wall-8b28502a9Thank">Follow Linkedin</a>
 					</div>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>
